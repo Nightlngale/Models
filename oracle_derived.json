@@ -1,0 +1,279 @@
+{
+  "modelName": "new_model",
+  "collections": [
+    {
+      "isActivated": true,
+      "collectionName": "Person",
+      "type": "reference",
+      "properties": [],
+      "definitions": {
+        "properties": [],
+        "GUID": "3fa79772-44cb-469a-9947-a157f1d21365"
+      },
+      "additionalProperties": false,
+      "temporary": false,
+      "temporaryType": "global",
+      "sharded": false,
+      "duplicated": false,
+      "immutable": false,
+      "GUID": "1eca27d9-c54b-4821-937c-e02f17d572d1",
+      "$ref": "#external/definitions/Person",
+      "refType": "polyglot",
+      "ref": "e5ba3de7-c675-4688-819e-87b4b8597f98",
+      "refIdPath": [
+        "7a90b47c-4e86-45ca-81db-3e703bceea86",
+        "b2c2d0fc-26dc-4ee0-a689-de279bd7a498",
+        "e5ba3de7-c675-4688-819e-87b4b8597f98"
+      ],
+      "bucketId": "00b73cbb-22ea-427c-a05d-3c60d1477475",
+      "hackoladeMeta": {
+        "validationErrors": {}
+      }
+    }
+  ],
+  "buckets": [
+    {
+      "isActivated": true,
+      "name": "New container",
+      "type": "reference",
+      "collectionIds": [
+        "1eca27d9-c54b-4821-937c-e02f17d572d1"
+      ],
+      "backgroundColor": {
+        "r": 129,
+        "g": 212,
+        "b": 250,
+        "a": 1
+      },
+      "show": true,
+      "GUID": "00b73cbb-22ea-427c-a05d-3c60d1477475",
+      "$ref": "#external/definitions/New container",
+      "refType": "polyglot",
+      "ref": "6b0ce2f7-5420-4208-8c43-83ebe136d02a",
+      "refIdPath": [
+        "7a90b47c-4e86-45ca-81db-3e703bceea86",
+        "b2c2d0fc-26dc-4ee0-a689-de279bd7a498",
+        "6b0ce2f7-5420-4208-8c43-83ebe136d02a"
+      ],
+      "hackoladeMeta": {
+        "validationErrors": {
+          "name": true
+        }
+      }
+    }
+  ],
+  "views": [],
+  "relationships": [],
+  "users": [],
+  "diagramViews": [],
+  "idToNameHashTable": {
+    "1eca27d9-c54b-4821-937c-e02f17d572d1": "Person",
+    "00b73cbb-22ea-427c-a05d-3c60d1477475": "New container"
+  },
+  "definitions": {
+    "type": "definitions",
+    "properties": [],
+    "GUID": "eef65354-9e70-4429-a959-4d62b8d635d5"
+  },
+  "polyglotDefinitions": {
+    "type": "polyglotDefinitions",
+    "properties": [
+      {
+        "collectionName": "Person",
+        "type": "object",
+        "properties": [
+          {
+            "primaryKey": false,
+            "mode": "varchar2",
+            "length": 20,
+            "subtype": "string",
+            "required": false,
+            "alternateKey": false,
+            "childType": "char",
+            "type": "string",
+            "partitionKey": false,
+            "compositePartitionKey": false,
+            "compositePrimaryKey": false,
+            "compositeUniqueKey": false,
+            "hackoladeMeta": {},
+            "isActivated": true,
+            "GUID": "fb5c9821-a897-4379-97d1-32a443507f17",
+            "name": "name",
+            "compositeKey": [
+              "partitionKey",
+              "compositePartitionKey",
+              "compositePrimaryKey",
+              "compositeUniqueKey"
+            ]
+          },
+          {
+            "exclusiveMinimum": false,
+            "exclusiveMaximum": false,
+            "primaryKey": false,
+            "mode": "number",
+            "required": false,
+            "alternateKey": false,
+            "childType": "number",
+            "type": "numeric",
+            "partitionKey": false,
+            "compositePartitionKey": false,
+            "compositePrimaryKey": false,
+            "compositeUniqueKey": false,
+            "name": "age",
+            "hackoladeMeta": {},
+            "isActivated": true,
+            "GUID": "4d8d350f-1504-4ad1-8293-c7bbeb660b24",
+            "compositeKey": [
+              "partitionKey",
+              "compositePartitionKey",
+              "compositePrimaryKey",
+              "compositeUniqueKey"
+            ]
+          }
+        ],
+        "definitions": {
+          "type": "definitions",
+          "properties": [],
+          "GUID": "7e0ea2be-f696-4818-933c-8e639582b00f"
+        },
+        "isActivated": true,
+        "additionalProperties": false,
+        "GUID": "e5ba3de7-c675-4688-819e-87b4b8597f98",
+        "bucketId": "6b0ce2f7-5420-4208-8c43-83ebe136d02a",
+        "definitionEntityType": "collection",
+        "link": "polyglot_external.json",
+        "kind": "relativePath",
+        "fieldRelativePath": "#/New container/Person",
+        "fileType": "hackoladeSchema",
+        "definitionRefs": [
+          [
+            "1eca27d9-c54b-4821-937c-e02f17d572d1"
+          ]
+        ]
+      },
+      {
+        "name": "New container",
+        "type": "bucket",
+        "collectionIds": [
+          "e5ba3de7-c675-4688-819e-87b4b8597f98"
+        ],
+        "backgroundColor": {
+          "r": 129,
+          "g": 212,
+          "b": 250,
+          "a": 1
+        },
+        "show": true,
+        "isActivated": true,
+        "indexes": [],
+        "GUID": "6b0ce2f7-5420-4208-8c43-83ebe136d02a",
+        "definitionEntityType": "bucket",
+        "link": "polyglot_external.json",
+        "kind": "relativePath",
+        "fieldRelativePath": "#/New container",
+        "fileType": "hackoladeSchema",
+        "definitionRefs": [
+          [
+            "00b73cbb-22ea-427c-a05d-3c60d1477475"
+          ]
+        ]
+      }
+    ],
+    "GUID": "b2c2d0fc-26dc-4ee0-a689-de279bd7a498"
+  },
+  "externalDefinitions": {
+    "type": "externalDefinitions",
+    "properties": [],
+    "GUID": "16eb3bc4-0891-45b6-8110-acca8c9cb466"
+  },
+  "sources": [],
+  "decorativeSymbols": [],
+  "dbVersion": "21c",
+  "dbVendor": "Oracle",
+  "appTarget": "Oracle",
+  "creationTS": "2025-09-30T14:18:46.829Z",
+  "GUID": "7a90b47c-4e86-45ca-81db-3e703bceea86",
+  "isLineageEnabled": false,
+  "polyglotModelPaths": [
+    {
+      "GUID": "86dfe927-d116-41e8-9a71-bd7bc57102bb",
+      "polyglotModelName": "polyglot_external",
+      "polyglotModelPath": "polyglot_external.json",
+      "normalization": true
+    }
+  ],
+  "lastModifTS": "2025-09-30T14:19:29.577Z",
+  "persistenceSchemaVersion": "8",
+  "isCreatedByPlugin": true,
+  "pluginInformation": {
+    "pluginName": "Oracle",
+    "pluginVersion": "0.2.41",
+    "pluginEngineVersion": "1.0.0"
+  },
+  "applicationInformation": {
+    "version": "8.5.0"
+  },
+  "settings": {
+    "centralPane": {
+      "dbLevel": {
+        "erd": [
+          {
+            "GUID": "1eca27d9-c54b-4821-937c-e02f17d572d1",
+            "x": 1104,
+            "y": 1104,
+            "width": 201,
+            "height": 97,
+            "color": {
+              "hex": "#2196F3"
+            }
+          }
+        ],
+        "erdDefinitions": {
+          "erd": [],
+          "rootPath": [],
+          "entities": [],
+          "decorativeSymbols": []
+        },
+        "buckets": [
+          {
+            "x": 1040,
+            "y": 1040,
+            "GUID": "00b73cbb-22ea-427c-a05d-3c60d1477475"
+          }
+        ],
+        "collapsedNodes": [],
+        "activeRelationship": "",
+        "activeRelationshipFields": {
+          "childField": [],
+          "parentField": []
+        },
+        "selectedCollections": [],
+        "displayColorPicker": false,
+        "graphView": {
+          "erd": [],
+          "buckets": [],
+          "decorativeSymbols": [],
+          "forceLayout": true,
+          "defaultLinkLength": 300
+        },
+        "diagramViews": [],
+        "decorativeSymbols": [],
+        "nestedCollectionsLayout": "horizontal",
+        "options": [
+          {
+            "autoWidth": false,
+            "autoHeight": false,
+            "GUID": "1eca27d9-c54b-4821-937c-e02f17d572d1"
+          }
+        ],
+        "relationshipUpdateDisabled": false
+      },
+      "collectionLevel": {},
+      "changed": false
+    },
+    "dtDiagram": {
+      "collapsedNodes": [],
+      "shouldDistributeCollections": false
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "modelName": "new_model",
+  "collections": [
+    {
+      "collectionName": "new_table",
+      "refType": "external",
+      "refNamePath": "#external/definitions/Person",
+      "properties": [],
+      "GUID": "3c6ed9ad-7f71-44ed-8dde-d7eef517f8a4",
+      "ref": "0cdb8f28-b2c1-4caa-8609-513b8f8e48a5",
+      "refIdPath": [
+        "b02da875-8899-4eeb-966a-9ab19540913d",
+        "262a4843-f0fd-415a-958d-2aba91e71087",
+        "0cdb8f28-b2c1-4caa-8609-513b8f8e48a5"
+      ],
+      "type": "reference",
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "17c59f1d-0dbf-40a5-96b9-b05b704a52b8"
+      }
+    }
+  ],
+  "buckets": [],
+  "views": [],
+  "relationships": [],
+  "users": [],
+  "diagramViews": [],
+  "idToNameHashTable": {
+    "3c6ed9ad-7f71-44ed-8dde-d7eef517f8a4": "new_table",
+    "0cdb8f28-b2c1-4caa-8609-513b8f8e48a5": "Person"
+  },
+  "definitions": {
+    "type": "definitions",
+    "properties": [],
+    "GUID": "f17ef537-09b6-41fd-be3f-375a4f12e2a0"
+  },
+  "polyglotDefinitions": {
+    "type": "polyglotDefinitions",
+    "properties": [],
+    "GUID": "ad886b2b-f922-48d2-b671-8451b22fb7f9"
+  },
+  "externalDefinitions": {
+    "type": "externalDefinitions",
+    "properties": [
+      {
+        "name": "Person",
+        "hackoladeMeta": {},
+        "isActivated": true,
+        "primaryKey": false,
+        "unique": false,
+        "type": "document",
+        "properties": [
+          {
+            "primaryKey": false,
+            "mode": "varchar2",
+            "length": 20,
+            "subtype": "string",
+            "required": false,
+            "alternateKey": false,
+            "childType": "char",
+            "type": "string",
+            "partitionKey": false,
+            "compositePartitionKey": false,
+            "compositePrimaryKey": false,
+            "compositeUniqueKey": false,
+            "hackoladeMeta": {},
+            "isActivated": true,
+            "GUID": "f54ccbe0-7bdb-5d48-8a8a-badb3e1fb822",
+            "name": "name",
+            "compositeKey": [
+              "partitionKey",
+              "compositePartitionKey",
+              "compositePrimaryKey",
+              "compositeUniqueKey"
+            ]
+          },
+          {
+            "exclusiveMinimum": false,
+            "exclusiveMaximum": false,
+            "primaryKey": false,
+            "mode": "number",
+            "required": false,
+            "alternateKey": false,
+            "childType": "number",
+            "type": "numeric",
+            "partitionKey": false,
+            "compositePartitionKey": false,
+            "compositePrimaryKey": false,
+            "compositeUniqueKey": false,
+            "name": "age",
+            "hackoladeMeta": {},
+            "isActivated": true,
+            "GUID": "46b0a868-5d1d-545e-993d-859ce4b4b9b0",
+            "compositeKey": [
+              "partitionKey",
+              "compositePartitionKey",
+              "compositePrimaryKey",
+              "compositeUniqueKey"
+            ]
+          }
+        ],
+        "additionalProperties": false,
+        "compositeKey": [
+          "partitionKey",
+          "compositePartitionKey",
+          "compositePrimaryKey",
+          "compositeUniqueKey"
+        ],
+        "partitionKey": false,
+        "compositePartitionKey": false,
+        "compositePrimaryKey": false,
+        "compositeUniqueKey": false,
+        "GUID": "0cdb8f28-b2c1-4caa-8609-513b8f8e48a5",
+        "definitionRefs": [
+          [
+            "3c6ed9ad-7f71-44ed-8dde-d7eef517f8a4"
+          ]
+        ],
+        "childType": "object_udt",
+        "link": "../oracle_derived.json",
+        "fieldRelativePath": "#/Person",
+        "kind": "relativePath",
+        "fileType": "hackoladeSchema"
+      }
+    ],
+    "GUID": "262a4843-f0fd-415a-958d-2aba91e71087"
+  },
+  "sources": [],
+  "decorativeSymbols": [],
+  "dbVersion": "21c",
+  "dbVendor": "Oracle",
+  "appTarget": "Oracle",
+  "creationTS": "2025-10-05T08:28:18.258Z",
+  "GUID": "b02da875-8899-4eeb-966a-9ab19540913d",
+  "isLineageEnabled": false,
+  "lastModifTS": "2025-10-05T08:28:58.295Z",
+  "persistenceSchemaVersion": "8",
+  "isCreatedByPlugin": true,
+  "pluginInformation": {
+    "pluginName": "Oracle",
+    "pluginVersion": "0.2.41",
+    "pluginEngineVersion": "1.0.0"
+  },
+  "applicationInformation": {
+    "version": "8.5.0"
+  },
+  "settings": {
+    "centralPane": {
+      "dbLevel": {
+        "erd": [
+          {
+            "GUID": "3c6ed9ad-7f71-44ed-8dde-d7eef517f8a4",
+            "x": 1040,
+            "y": 1040,
+            "width": 300,
+            "height": 100,
+            "color": {}
+          }
+        ],
+        "erdDefinitions": {
+          "erd": [],
+          "rootPath": [],
+          "entities": [],
+          "decorativeSymbols": []
+        },
+        "buckets": [],
+        "collapsedNodes": [],
+        "activeRelationship": "",
+        "activeRelationshipFields": {
+          "childField": [],
+          "parentField": []
+        },
+        "selectedCollections": [],
+        "displayColorPicker": false,
+        "graphView": {
+          "erd": [],
+          "buckets": [],
+          "decorativeSymbols": [],
+          "forceLayout": true,
+          "defaultLinkLength": 300
+        },
+        "diagramViews": [],
+        "decorativeSymbols": [],
+        "nestedCollectionsLayout": "horizontal",
+        "options": [],
+        "relationshipUpdateDisabled": false
+      },
+      "collectionLevel": {},
+      "changed": false
+    },
+    "dtDiagram": {
+      "collapsedNodes": [],
+      "shouldDistributeCollections": false
+    }
+  }
+}

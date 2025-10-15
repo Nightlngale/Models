@@ -10,26 +10,26 @@
   "definitions": {
     "type": "definitions",
     "properties": [],
-    "GUID": "7d92ef5b-465b-4235-8ff1-3e442cc184e1"
+    "GUID": "b4568281-3848-4a74-8667-e43f7d3d253b"
   },
   "polyglotDefinitions": {
     "type": "polyglotDefinitions",
     "properties": [],
-    "GUID": "b062753d-b1e4-48cd-b484-d4b23468dc4b"
+    "GUID": "0ed9e7f4-81f4-400c-ac67-e84600e4a9b4"
   },
   "externalDefinitions": {
     "type": "externalDefinitions",
     "properties": [],
-    "GUID": "4e08c4bc-e69f-49b5-a27f-620e364618f1"
+    "GUID": "5171a4a8-a62e-43c4-8fea-ee09d639b06b"
   },
   "sources": [],
   "decorativeSymbols": [],
   "dbVendor": "Snowflake",
   "appTarget": "Snowflake",
-  "creationTS": "2025-10-15T11:16:36.303Z",
-  "GUID": "3a0219df-5ddd-4ab9-aba8-9a015ec266d2",
+  "creationTS": "2025-10-15T11:17:25.821Z",
+  "GUID": "4fbeffad-623c-4510-ac10-28356c4ae645",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-10-15T11:16:52.689Z",
+  "lastModifTS": "2025-10-15T11:17:53.307Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {

@@ -1,12 +1,59 @@
 {
   "modelName": "New model",
-  "collections": [],
+  "collections": [
+    {
+      "collectionName": "My table",
+      "type": "object",
+      "properties": [
+        {
+          "name": "randomProperty",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "autoincrement": {
+            "step_num": 1
+          },
+          "tPrecision": 9,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "clusteringKey",
+            "partitioningKey",
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "clusteringKey": false,
+          "partitioningKey": false,
+          "GUID": "eb6d49e6-ee9f-4adb-b436-b4c9a71373e6",
+          "error": {}
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "c04cf783-8332-485f-9bec-1af1bf061887"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "external": false,
+      "catalog": "",
+      "storageSerializationPolicy": "optimized",
+      "GUID": "6217c752-63be-43a6-90c5-097b7d363211",
+      "hackoladeMeta": {
+        "validationErrors": {}
+      }
+    }
+  ],
   "buckets": [],
   "views": [],
   "relationships": [],
   "users": [],
   "diagramViews": [],
-  "idToNameHashTable": {},
+  "idToNameHashTable": {
+    "6217c752-63be-43a6-90c5-097b7d363211": "My table",
+    "eb6d49e6-ee9f-4adb-b436-b4c9a71373e6": "randomProperty"
+  },
   "definitions": {
     "type": "definitions",
     "properties": [],
@@ -29,7 +76,7 @@
   "creationTS": "2025-10-15T11:17:25.821Z",
   "GUID": "4fbeffad-623c-4510-ac10-28356c4ae645",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-10-15T11:17:53.307Z",
+  "lastModifTS": "2025-10-15T11:49:18.770Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -40,10 +87,20 @@
   "applicationInformation": {
     "version": "8.5.2"
   },
+  "hackoladeMeta": {},
   "settings": {
     "centralPane": {
       "dbLevel": {
-        "erd": [],
+        "erd": [
+          {
+            "GUID": "6217c752-63be-43a6-90c5-097b7d363211",
+            "x": 1064,
+            "y": 1064,
+            "width": 227,
+            "height": 50,
+            "color": {}
+          }
+        ],
         "erdDefinitions": {
           "erd": [],
           "rootPath": [],

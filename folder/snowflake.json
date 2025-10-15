@@ -1,82 +1,35 @@
 {
   "modelName": "New model",
-  "collections": [
-    {
-      "collectionName": "My table",
-      "type": "object",
-      "properties": [
-        {
-          "name": "randomProperty",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "autoincrement": {
-            "step_num": 1
-          },
-          "tPrecision": 9,
-          "primaryKey": false,
-          "required": false,
-          "childType": "varchar",
-          "type": "string",
-          "compositeKey": [
-            "clusteringKey",
-            "partitioningKey",
-            "compositePrimaryKey",
-            "compositeUniqueKey"
-          ],
-          "clusteringKey": false,
-          "partitioningKey": false,
-          "GUID": "eb6d49e6-ee9f-4adb-b436-b4c9a71373e6",
-          "error": {}
-        }
-      ],
-      "definitions": {
-        "type": "definitions",
-        "properties": [],
-        "GUID": "c04cf783-8332-485f-9bec-1af1bf061887"
-      },
-      "isActivated": true,
-      "additionalProperties": false,
-      "external": false,
-      "catalog": "",
-      "storageSerializationPolicy": "optimized",
-      "GUID": "6217c752-63be-43a6-90c5-097b7d363211",
-      "hackoladeMeta": {
-        "validationErrors": {}
-      }
-    }
-  ],
+  "collections": [],
   "buckets": [],
   "views": [],
   "relationships": [],
   "users": [],
   "diagramViews": [],
-  "idToNameHashTable": {
-    "6217c752-63be-43a6-90c5-097b7d363211": "My table",
-    "eb6d49e6-ee9f-4adb-b436-b4c9a71373e6": "randomProperty"
-  },
+  "idToNameHashTable": {},
   "definitions": {
     "type": "definitions",
     "properties": [],
-    "GUID": "b4568281-3848-4a74-8667-e43f7d3d253b"
+    "GUID": "fc708b34-e8d6-4e88-b8bb-abae83ff6e7a"
   },
   "polyglotDefinitions": {
     "type": "polyglotDefinitions",
     "properties": [],
-    "GUID": "0ed9e7f4-81f4-400c-ac67-e84600e4a9b4"
+    "GUID": "269935ef-db15-47e4-8c5f-773777d7dc4a"
   },
   "externalDefinitions": {
     "type": "externalDefinitions",
     "properties": [],
-    "GUID": "5171a4a8-a62e-43c4-8fea-ee09d639b06b"
+    "GUID": "7f279c54-6776-40c4-a8d6-4947d2499d65"
   },
   "sources": [],
   "decorativeSymbols": [],
   "dbVendor": "Snowflake",
   "appTarget": "Snowflake",
-  "creationTS": "2025-10-15T11:17:25.821Z",
-  "GUID": "4fbeffad-623c-4510-ac10-28356c4ae645",
+  "creationTS": "2025-10-15T14:48:54.698Z",
+  "GUID": "feeb1ce7-76f1-447f-844d-3417147b8ed8",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-10-15T11:49:18.770Z",
+  "lastModifTS": "2025-10-15T14:49:49.597Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -87,20 +40,10 @@
   "applicationInformation": {
     "version": "8.5.2"
   },
-  "hackoladeMeta": {},
   "settings": {
     "centralPane": {
       "dbLevel": {
-        "erd": [
-          {
-            "GUID": "6217c752-63be-43a6-90c5-097b7d363211",
-            "x": 1064,
-            "y": 1064,
-            "width": 227,
-            "height": 50,
-            "color": {}
-          }
-        ],
+        "erd": [],
         "erdDefinitions": {
           "erd": [],
           "rootPath": [],

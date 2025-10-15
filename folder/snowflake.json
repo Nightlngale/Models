@@ -1,79 +1,35 @@
 {
   "modelName": "New model",
-  "collections": [
-    {
-      "collectionName": "New table",
-      "type": "object",
-      "properties": [
-        {
-          "name": "something",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "autoincrement": {
-            "step_num": 1
-          },
-          "tPrecision": 9,
-          "primaryKey": false,
-          "required": false,
-          "childType": "varchar",
-          "type": "string",
-          "compositeKey": [
-            "clusteringKey",
-            "partitioningKey",
-            "compositePrimaryKey",
-            "compositeUniqueKey"
-          ],
-          "clusteringKey": false,
-          "partitioningKey": false,
-          "GUID": "c843b5ec-926c-4a56-ad71-649034a8a291",
-          "error": {}
-        }
-      ],
-      "definitions": {
-        "type": "definitions",
-        "properties": [],
-        "GUID": "6cd39cb7-aaab-4335-bf0c-dfb3251a8d96"
-      },
-      "isActivated": true,
-      "additionalProperties": false,
-      "external": false,
-      "catalog": "",
-      "storageSerializationPolicy": "optimized",
-      "GUID": "145b8688-c4a0-4931-bb97-f47756c21871"
-    }
-  ],
+  "collections": [],
   "buckets": [],
   "views": [],
   "relationships": [],
   "users": [],
   "diagramViews": [],
-  "idToNameHashTable": {
-    "145b8688-c4a0-4931-bb97-f47756c21871": "New table",
-    "c843b5ec-926c-4a56-ad71-649034a8a291": "something"
-  },
+  "idToNameHashTable": {},
   "definitions": {
     "type": "definitions",
     "properties": [],
-    "GUID": "8beb585d-2730-4fe1-bdf0-937beb889b37"
+    "GUID": "afc94c81-6b86-4dc8-a805-c5edf81eb11e"
   },
   "polyglotDefinitions": {
     "type": "polyglotDefinitions",
     "properties": [],
-    "GUID": "eb15b6d9-4351-41cc-8ecf-71fbe1fd35a6"
+    "GUID": "e5124250-4b4a-4721-9e7d-acde22d2be99"
   },
   "externalDefinitions": {
     "type": "externalDefinitions",
     "properties": [],
-    "GUID": "12addb84-94c6-4f6f-873c-09aea7877ef5"
+    "GUID": "b6ab8f3e-4187-4b0e-9e5f-bae86d655606"
   },
   "sources": [],
   "decorativeSymbols": [],
   "dbVendor": "Snowflake",
   "appTarget": "Snowflake",
-  "creationTS": "2025-10-15T11:06:59.266Z",
-  "GUID": "ace81860-e80e-4dcc-8463-d3de941a816d",
+  "creationTS": "2025-10-15T11:09:31.149Z",
+  "GUID": "c99c8a50-53f2-4f43-86b3-50c5e92cfa0f",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-10-15T11:08:02.119Z",
+  "lastModifTS": "2025-10-15T11:11:13.352Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -87,16 +43,7 @@
   "settings": {
     "centralPane": {
       "dbLevel": {
-        "erd": [
-          {
-            "GUID": "145b8688-c4a0-4931-bb97-f47756c21871",
-            "x": 1057,
-            "y": 1101,
-            "width": 193,
-            "height": 50,
-            "color": {}
-          }
-        ],
+        "erd": [],
         "erdDefinitions": {
           "erd": [],
           "rootPath": [],

@@ -1,0 +1,136 @@
+{
+  "modelName": "New model",
+  "collections": [
+    {
+      "collectionName": "New table",
+      "type": "object",
+      "properties": [
+        {
+          "name": "something",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "autoincrement": {
+            "step_num": 1
+          },
+          "tPrecision": 9,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "clusteringKey",
+            "partitioningKey",
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "clusteringKey": false,
+          "partitioningKey": false,
+          "GUID": "c843b5ec-926c-4a56-ad71-649034a8a291",
+          "error": {}
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "6cd39cb7-aaab-4335-bf0c-dfb3251a8d96"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "external": false,
+      "catalog": "",
+      "storageSerializationPolicy": "optimized",
+      "GUID": "145b8688-c4a0-4931-bb97-f47756c21871"
+    }
+  ],
+  "buckets": [],
+  "views": [],
+  "relationships": [],
+  "users": [],
+  "diagramViews": [],
+  "idToNameHashTable": {
+    "145b8688-c4a0-4931-bb97-f47756c21871": "New table",
+    "c843b5ec-926c-4a56-ad71-649034a8a291": "something"
+  },
+  "definitions": {
+    "type": "definitions",
+    "properties": [],
+    "GUID": "8beb585d-2730-4fe1-bdf0-937beb889b37"
+  },
+  "polyglotDefinitions": {
+    "type": "polyglotDefinitions",
+    "properties": [],
+    "GUID": "eb15b6d9-4351-41cc-8ecf-71fbe1fd35a6"
+  },
+  "externalDefinitions": {
+    "type": "externalDefinitions",
+    "properties": [],
+    "GUID": "12addb84-94c6-4f6f-873c-09aea7877ef5"
+  },
+  "sources": [],
+  "decorativeSymbols": [],
+  "dbVendor": "Snowflake",
+  "appTarget": "Snowflake",
+  "creationTS": "2025-10-15T11:06:59.266Z",
+  "GUID": "ace81860-e80e-4dcc-8463-d3de941a816d",
+  "isLineageEnabled": false,
+  "lastModifTS": "2025-10-15T11:08:02.119Z",
+  "persistenceSchemaVersion": "8",
+  "isCreatedByPlugin": true,
+  "pluginInformation": {
+    "pluginName": "Snowflake",
+    "pluginVersion": "0.2.35",
+    "pluginEngineVersion": "1.0.0"
+  },
+  "applicationInformation": {
+    "version": "8.5.2"
+  },
+  "settings": {
+    "centralPane": {
+      "dbLevel": {
+        "erd": [
+          {
+            "GUID": "145b8688-c4a0-4931-bb97-f47756c21871",
+            "x": 1057,
+            "y": 1101,
+            "width": 193,
+            "height": 50,
+            "color": {}
+          }
+        ],
+        "erdDefinitions": {
+          "erd": [],
+          "rootPath": [],
+          "entities": [],
+          "decorativeSymbols": []
+        },
+        "buckets": [],
+        "collapsedNodes": [],
+        "activeRelationship": "",
+        "activeRelationshipFields": {
+          "childField": [],
+          "parentField": []
+        },
+        "selectedCollections": [],
+        "displayColorPicker": false,
+        "graphView": {
+          "erd": [],
+          "buckets": [],
+          "decorativeSymbols": [],
+          "forceLayout": true,
+          "defaultLinkLength": 300
+        },
+        "diagramViews": [],
+        "decorativeSymbols": [],
+        "nestedCollectionsLayout": "horizontal",
+        "options": [],
+        "relationshipUpdateDisabled": false
+      },
+      "collectionLevel": {},
+      "changed": false
+    },
+    "dtDiagram": {
+      "collapsedNodes": [],
+      "shouldDistributeCollections": false
+    }
+  }
+}

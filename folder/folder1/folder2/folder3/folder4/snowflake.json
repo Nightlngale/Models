@@ -27,6 +27,35 @@
           "partitioningKey": false,
           "GUID": "5089fd37-5c46-4afc-9d17-55999d30a259",
           "error": {}
+        },
+        {
+          "name": "New column",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "autoincrement": {
+            "step_num": 1
+          },
+          "tPrecision": 9,
+          "primaryKey": false,
+          "required": false,
+          "alternateKey": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "clusteringKey",
+            "partitioningKey",
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "clusteringKey": false,
+          "partitioningKey": false,
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "409daf73-4169-410d-a4ee-bc44eaaf8956",
+          "error": {
+            "name": false,
+            "code": false
+          }
         }
       ],
       "definitions": {
@@ -49,7 +78,8 @@
   "diagramViews": [],
   "idToNameHashTable": {
     "589264e7-a3c4-4570-8f3a-b65cd6afd58e": "New table",
-    "5089fd37-5c46-4afc-9d17-55999d30a259": "ref"
+    "5089fd37-5c46-4afc-9d17-55999d30a259": "ref",
+    "409daf73-4169-410d-a4ee-bc44eaaf8956": "New column"
   },
   "definitions": {
     "type": "definitions",
@@ -73,7 +103,7 @@
   "creationTS": "2025-10-15T14:48:54.698Z",
   "GUID": "feeb1ce7-76f1-447f-844d-3417147b8ed8",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-10-16T12:14:39.710Z",
+  "lastModifTS": "2025-10-16T12:16:00.161Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -93,8 +123,8 @@
             "GUID": "589264e7-a3c4-4570-8f3a-b65cd6afd58e",
             "x": 40,
             "y": 40,
-            "width": 178,
-            "height": 50,
+            "width": 204,
+            "height": 68,
             "color": {}
           }
         ],

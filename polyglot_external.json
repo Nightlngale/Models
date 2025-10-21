@@ -37,6 +37,21 @@
           ],
           "GUID": "4d8d350f-1504-4ad1-8293-c7bbeb660b24",
           "error": {}
+        },
+        {
+          "name": "sex",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "GUID": "1d7e23da-3fb5-4558-90e1-a8607917f5bb",
+          "error": {}
         }
       ],
       "definitions": {
@@ -77,7 +92,8 @@
     "6b0ce2f7-5420-4208-8c43-83ebe136d02a": "New container",
     "e5ba3de7-c675-4688-819e-87b4b8597f98": "Person",
     "fb5c9821-a897-4379-97d1-32a443507f17": "name",
-    "4d8d350f-1504-4ad1-8293-c7bbeb660b24": "age"
+    "4d8d350f-1504-4ad1-8293-c7bbeb660b24": "age",
+    "1d7e23da-3fb5-4558-90e1-a8607917f5bb": "sex"
   },
   "definitions": {
     "type": "definitions",
@@ -101,7 +117,7 @@
   "creationTS": "2025-09-30T14:15:25.845Z",
   "GUID": "ff5b1775-4ff7-4260-baab-abf2c4dbaa72",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-09-30T14:16:15.520Z",
+  "lastModifTS": "2025-10-21T09:59:06.205Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -110,8 +126,9 @@
     "pluginEngineVersion": "1.0.0"
   },
   "applicationInformation": {
-    "version": "8.5.0"
+    "version": "8.5.3"
   },
+  "hackoladeMeta": {},
   "settings": {
     "centralPane": {
       "dbLevel": {
@@ -120,8 +137,8 @@
             "GUID": "e5ba3de7-c675-4688-819e-87b4b8597f98",
             "x": 1104,
             "y": 1104,
-            "width": 165,
-            "height": 68,
+            "width": 198,
+            "height": 93,
             "color": {
               "hex": "#2196F3"
             }
@@ -171,7 +188,13 @@
         "diagramViews": [],
         "decorativeSymbols": [],
         "nestedCollectionsLayout": "horizontal",
-        "options": [],
+        "options": [
+          {
+            "autoWidth": false,
+            "autoHeight": false,
+            "GUID": "e5ba3de7-c675-4688-819e-87b4b8597f98"
+          }
+        ],
         "relationshipUpdateDisabled": false
       },
       "collectionLevel": {},

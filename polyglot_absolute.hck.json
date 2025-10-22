@@ -1,0 +1,1283 @@
+{
+  "modelName": "new_model",
+  "collections": [
+    {
+      "isActivated": true,
+      "collectionName": "Person",
+      "type": "reference",
+      "properties": [],
+      "definitions": {
+        "properties": [],
+        "GUID": "cf789310-08cd-432c-8ee3-6d00e5bb4c8b"
+      },
+      "additionalProperties": false,
+      "memory_optimized": false,
+      "collectionUsers": [],
+      "ifNotExist": true,
+      "GUID": "68aecfce-6291-4cb2-9f8f-dc2bccc475f5",
+      "$ref": "#external/definitions/Person",
+      "refType": "polyglot",
+      "ref": "e5ba3de7-c675-4688-819e-87b4b8597f98",
+      "refIdPath": [
+        "d9cdb027-4ff9-42b6-bdf6-4b1ba4b3ad37",
+        "dfc738d3-8491-41f3-8664-7b75b24191ec",
+        "e5ba3de7-c675-4688-819e-87b4b8597f98"
+      ],
+      "bucketId": "861cfcec-34e8-43cf-a02d-e0c55c8f0380",
+      "hackoladeMeta": {
+        "validationErrors": {}
+      }
+    },
+    {
+      "type": "object",
+      "properties": [
+        {
+          "primaryKey": false,
+          "mode": "varchar",
+          "length": 20,
+          "subtype": "string",
+          "required": false,
+          "alternateKey": false,
+          "childType": "char",
+          "type": "char",
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "name": "PolyglotAttr null",
+          "hackoladeMeta": {
+            "styles": {}
+          },
+          "isActivated": true,
+          "GUID": "7df51e7f-0e22-4447-8cb0-8e735c140125",
+          "default": null,
+          "foreignCollection": "",
+          "foreignField": [],
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "error": {
+            "name": true
+          }
+        },
+        {
+          "primaryKey": false,
+          "alternateKey": false,
+          "childType": "boolean",
+          "type": "boolean",
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "name": "PolyglotAttr boolean",
+          "hackoladeMeta": {
+            "styles": {}
+          },
+          "isActivated": true,
+          "GUID": "61147ce8-543f-4662-9c59-cee89d11f12c",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "error": {
+            "name": true
+          }
+        },
+        {
+          "primaryKey": false,
+          "mode": "varchar",
+          "length": 20,
+          "subtype": "string",
+          "required": true,
+          "alternateKey": false,
+          "childType": "char",
+          "type": "string",
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "name": "PolyglotAttr enum",
+          "hackoladeMeta": {
+            "styles": {}
+          },
+          "isActivated": true,
+          "pattern": "^[A-Za-z_][A-Za-z0-9_]*$",
+          "cardinality": "1",
+          "GUID": "e1ba967d-86fd-4fd0-86a3-ef6a259666cc",
+          "foreignCollection": "",
+          "foreignField": [],
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "error": {
+            "name": true
+          }
+        },
+        {
+          "primaryKey": false,
+          "mode": "varchar",
+          "length": 20,
+          "subtype": "string",
+          "required": false,
+          "alternateKey": false,
+          "childType": "char",
+          "type": "string",
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "name": "PolyglotAttr uuid",
+          "hackoladeMeta": {
+            "styles": {}
+          },
+          "isActivated": true,
+          "cardinality": "1",
+          "GUID": "db504bc5-ae89-47ca-88cf-903755d5739a",
+          "foreignCollection": "",
+          "foreignField": [],
+          "pattern": "^[a-fA-F0-9]{24}$",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "error": {
+            "name": true
+          }
+        },
+        {
+          "primaryKey": false,
+          "mode": "varchar",
+          "length": 20,
+          "subtype": "string",
+          "required": false,
+          "alternateKey": false,
+          "childType": "char",
+          "type": "string",
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "name": "PolyglotAttr timeuuid",
+          "hackoladeMeta": {
+            "styles": {}
+          },
+          "isActivated": true,
+          "cardinality": "1",
+          "GUID": "41d6bf1e-808b-49f9-9306-f081fd0cb410",
+          "foreignCollection": "",
+          "foreignField": [],
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "error": {
+            "name": true
+          }
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "da048a75-60e5-43a8-bda2-131555ff905d"
+      },
+      "isActivated": true,
+      "collectionName": "PolyglotVariousEntity",
+      "additionalProperties": false,
+      "memory_optimized": false,
+      "collectionUsers": [],
+      "ifNotExist": true,
+      "GUID": "a0df936e-8e27-462f-ac62-b13f38670b00",
+      "bucketId": "6ba2b499-9bbb-495a-8df6-1d8e02b9cf66",
+      "hackoladeMeta": {
+        "validationErrors": {}
+      }
+    },
+    {
+      "type": "object",
+      "properties": [
+        {
+          "primaryKey": false,
+          "mode": "json",
+          "additionalProperties": true,
+          "subtype": "object",
+          "alternateKey": false,
+          "childType": "json",
+          "type": "jsonObject",
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "name": "PolyglotAttr object",
+          "hackoladeMeta": {
+            "styles": {}
+          },
+          "isActivated": true,
+          "GUID": "c1805dea-6c84-467c-a390-0443b4908e16",
+          "maxProperties": 666,
+          "minProperties": 7,
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "error": {
+            "name": true
+          },
+          "properties": []
+        },
+        {
+          "primaryKey": false,
+          "mode": "json",
+          "additionalProperties": true,
+          "subtype": "object",
+          "alternateKey": false,
+          "childType": "json",
+          "type": "jsonObject",
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "name": "PolyglotAttr map",
+          "hackoladeMeta": {
+            "styles": {}
+          },
+          "isActivated": true,
+          "GUID": "da5d9f6e-eb0d-4ee4-a6a1-7f502ddf5a8a",
+          "minProperties": 1,
+          "maxProperties": 2,
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "error": {
+            "name": true
+          },
+          "properties": []
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "54aae0aa-343d-4d47-9ac5-2f9833ada38d"
+      },
+      "isActivated": true,
+      "collectionName": "PolyglotListEntity",
+      "additionalProperties": false,
+      "memory_optimized": false,
+      "collectionUsers": [],
+      "ifNotExist": true,
+      "GUID": "52e95385-1828-4d0e-b77c-1c1902add178",
+      "bucketId": "6ba2b499-9bbb-495a-8df6-1d8e02b9cf66",
+      "hackoladeMeta": {
+        "validationErrors": {}
+      }
+    },
+    {
+      "isActivated": true,
+      "collectionName": "L3.4",
+      "type": "reference",
+      "properties": [],
+      "definitions": {
+        "properties": [],
+        "GUID": "d8419dbc-5191-45b6-8227-c818bde2bf72"
+      },
+      "additionalProperties": false,
+      "memory_optimized": false,
+      "collectionUsers": [],
+      "ifNotExist": true,
+      "GUID": "95a6e7ae-a87b-41b8-9950-983b48efedbd",
+      "$ref": "#external/definitions/L3.4",
+      "refType": "polyglot",
+      "ref": "9e7e838c-b523-4fe3-948d-de8187c8427e",
+      "refIdPath": [
+        "d9cdb027-4ff9-42b6-bdf6-4b1ba4b3ad37",
+        "dfc738d3-8491-41f3-8664-7b75b24191ec",
+        "9e7e838c-b523-4fe3-948d-de8187c8427e"
+      ],
+      "hackoladeMeta": {
+        "validationErrors": {
+          "collectionName": true
+        }
+      },
+      "referenceDiff": {
+        "properties": [
+          {
+            "GUID": "9387f00c-33a9-40bb-b034-76b00bc7600f",
+            "error": {
+              "name": true
+            }
+          },
+          {
+            "GUID": "cff27eee-e413-4eaa-91a3-43624e9610e2",
+            "error": {
+              "name": true
+            }
+          },
+          {
+            "GUID": "746bd09d-8d03-5b4b-b8d3-016ca500d58c",
+            "properties": [
+              {
+                "GUID": "104e3d6d-e695-5b34-8ca4-ae583ef632f5",
+                "properties": [
+                  {
+                    "GUID": "5c329f92-b183-4c93-8f1a-4866cc8be065",
+                    "error": {
+                      "name": true
+                    },
+                    "properties": [
+                      {
+                        "GUID": "163f4236-90ed-4fda-bed0-9ca3d110b20e",
+                        "error": {
+                          "name": true
+                        }
+                      },
+                      {
+                        "GUID": "862ec887-65ac-4805-b259-075b3d035715",
+                        "error": {
+                          "name": true
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "GUID": "74262fe7-4de3-595f-8d43-27378934e148",
+                "properties": [
+                  {
+                    "GUID": "804a0753-b14d-431f-8fe7-016cc2f107a9",
+                    "error": {
+                      "name": true
+                    },
+                    "properties": [
+                      {
+                        "GUID": "6380dd6d-bb7a-45b5-ab5e-239ac335775d",
+                        "error": {
+                          "name": true
+                        }
+                      },
+                      {
+                        "GUID": "fef5e4b0-cc02-45df-9cc0-da287b03f8a5",
+                        "error": {
+                          "name": true
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "buckets": [
+    {
+      "isActivated": true,
+      "name": "New container",
+      "type": "reference",
+      "collectionIds": [
+        "68aecfce-6291-4cb2-9f8f-dc2bccc475f5"
+      ],
+      "backgroundColor": {
+        "r": 129,
+        "g": 212,
+        "b": 250,
+        "a": 1
+      },
+      "show": true,
+      "GUID": "861cfcec-34e8-43cf-a02d-e0c55c8f0380",
+      "$ref": "#external/definitions/New container",
+      "refType": "polyglot",
+      "ref": "6b0ce2f7-5420-4208-8c43-83ebe136d02a",
+      "refIdPath": [
+        "d9cdb027-4ff9-42b6-bdf6-4b1ba4b3ad37",
+        "dfc738d3-8491-41f3-8664-7b75b24191ec",
+        "6b0ce2f7-5420-4208-8c43-83ebe136d02a"
+      ],
+      "hackoladeMeta": {
+        "validationErrors": {
+          "name": true
+        }
+      }
+    },
+    {
+      "backgroundColor": {
+        "r": 216,
+        "g": 0,
+        "b": 115,
+        "a": 1
+      },
+      "show": true,
+      "indexes": [],
+      "hackoladeMeta": {},
+      "type": "bucket",
+      "isActivated": true,
+      "name": "PolyglotContainerSmallerEntities",
+      "collectionIds": [
+        "a0df936e-8e27-462f-ac62-b13f38670b00",
+        "52e95385-1828-4d0e-b77c-1c1902add178"
+      ],
+      "GUID": "6ba2b499-9bbb-495a-8df6-1d8e02b9cf66",
+      "description": "Description",
+      "comments": "Comment"
+    }
+  ],
+  "views": [],
+  "relationships": [],
+  "users": [],
+  "diagramViews": [],
+  "idToNameHashTable": {
+    "68aecfce-6291-4cb2-9f8f-dc2bccc475f5": "Person",
+    "861cfcec-34e8-43cf-a02d-e0c55c8f0380": "New container",
+    "a0df936e-8e27-462f-ac62-b13f38670b00": "PolyglotVariousEntity",
+    "52e95385-1828-4d0e-b77c-1c1902add178": "PolyglotListEntity",
+    "6ba2b499-9bbb-495a-8df6-1d8e02b9cf66": "PolyglotContainerSmallerEntities",
+    "95a6e7ae-a87b-41b8-9950-983b48efedbd": "L3.4",
+    "7df51e7f-0e22-4447-8cb0-8e735c140125": "PolyglotAttr null",
+    "61147ce8-543f-4662-9c59-cee89d11f12c": "PolyglotAttr boolean",
+    "e1ba967d-86fd-4fd0-86a3-ef6a259666cc": "PolyglotAttr enum",
+    "db504bc5-ae89-47ca-88cf-903755d5739a": "PolyglotAttr uuid",
+    "41d6bf1e-808b-49f9-9306-f081fd0cb410": "PolyglotAttr timeuuid",
+    "c1805dea-6c84-467c-a390-0443b4908e16": "PolyglotAttr object",
+    "da5d9f6e-eb0d-4ee4-a6a1-7f502ddf5a8a": "PolyglotAttr map"
+  },
+  "definitions": {
+    "type": "definitions",
+    "properties": [],
+    "GUID": "93681379-e444-4535-8a71-3a36d411ab79"
+  },
+  "polyglotDefinitions": {
+    "type": "polyglotDefinitions",
+    "properties": [
+      {
+        "collectionName": "Person",
+        "type": "object",
+        "properties": [
+          {
+            "primaryKey": false,
+            "mode": "varchar",
+            "length": 20,
+            "subtype": "string",
+            "required": false,
+            "alternateKey": false,
+            "childType": "char",
+            "type": "string",
+            "compositePrimaryKey": false,
+            "compositeUniqueKey": false,
+            "hackoladeMeta": {},
+            "isActivated": true,
+            "GUID": "fb5c9821-a897-4379-97d1-32a443507f17",
+            "name": "name",
+            "compositeKey": [
+              "compositePrimaryKey",
+              "compositeUniqueKey"
+            ]
+          },
+          {
+            "exclusiveMinimum": false,
+            "exclusiveMaximum": false,
+            "primaryKey": false,
+            "mode": "integer",
+            "required": false,
+            "alternateKey": false,
+            "childType": "number",
+            "type": "numeric",
+            "compositePrimaryKey": false,
+            "compositeUniqueKey": false,
+            "name": "age",
+            "hackoladeMeta": {},
+            "isActivated": true,
+            "GUID": "4d8d350f-1504-4ad1-8293-c7bbeb660b24",
+            "compositeKey": [
+              "compositePrimaryKey",
+              "compositeUniqueKey"
+            ]
+          }
+        ],
+        "definitions": {
+          "type": "definitions",
+          "properties": [],
+          "GUID": "7e0ea2be-f696-4818-933c-8e639582b00f"
+        },
+        "isActivated": true,
+        "additionalProperties": false,
+        "GUID": "e5ba3de7-c675-4688-819e-87b4b8597f98",
+        "bucketId": "6b0ce2f7-5420-4208-8c43-83ebe136d02a",
+        "definitionEntityType": "collection",
+        "link": "../polyglot_external.json",
+        "kind": "relativePath",
+        "fieldRelativePath": "#/New container/Person",
+        "fileType": "hackoladeSchema",
+        "definitionRefs": [
+          [
+            "68aecfce-6291-4cb2-9f8f-dc2bccc475f5"
+          ]
+        ]
+      },
+      {
+        "name": "New container",
+        "type": "bucket",
+        "collectionIds": [
+          "e5ba3de7-c675-4688-819e-87b4b8597f98"
+        ],
+        "backgroundColor": {
+          "r": 129,
+          "g": 212,
+          "b": 250,
+          "a": 1
+        },
+        "show": true,
+        "isActivated": true,
+        "indexes": [],
+        "GUID": "6b0ce2f7-5420-4208-8c43-83ebe136d02a",
+        "definitionEntityType": "bucket",
+        "link": "../polyglot_external.json",
+        "kind": "relativePath",
+        "fieldRelativePath": "#/New container",
+        "fileType": "hackoladeSchema",
+        "definitionRefs": [
+          [
+            "861cfcec-34e8-43cf-a02d-e0c55c8f0380"
+          ]
+        ]
+      },
+      {
+        "collectionName": "L3.4",
+        "type": "object",
+        "properties": [
+          {
+            "primaryKey": false,
+            "mode": "varchar",
+            "length": 20,
+            "subtype": "string",
+            "required": false,
+            "alternateKey": false,
+            "childType": "char",
+            "type": "string",
+            "compositePrimaryKey": false,
+            "compositeUniqueKey": false,
+            "name": "New attribute",
+            "hackoladeMeta": {},
+            "isActivated": true,
+            "GUID": "9387f00c-33a9-40bb-b034-76b00bc7600f",
+            "compositeKey": [
+              "compositePrimaryKey",
+              "compositeUniqueKey"
+            ]
+          },
+          {
+            "primaryKey": false,
+            "mode": "varchar",
+            "length": 20,
+            "subtype": "string",
+            "required": false,
+            "alternateKey": false,
+            "childType": "char",
+            "type": "string",
+            "compositePrimaryKey": false,
+            "compositeUniqueKey": false,
+            "name": "New attribute1",
+            "hackoladeMeta": {},
+            "isActivated": true,
+            "GUID": "cff27eee-e413-4eaa-91a3-43624e9610e2",
+            "compositeKey": [
+              "compositePrimaryKey",
+              "compositeUniqueKey"
+            ]
+          },
+          {
+            "type": "choice",
+            "properties": [
+              {
+                "subschema": true,
+                "isActivated": true,
+                "type": "document",
+                "GUID": "104e3d6d-e695-5b34-8ca4-ae583ef632f5",
+                "childType": "object",
+                "properties": [
+                  {
+                    "name": "L4.1",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "subtype": "object",
+                    "properties": [
+                      {
+                        "primaryKey": false,
+                        "mode": "varchar",
+                        "length": 20,
+                        "subtype": "string",
+                        "required": false,
+                        "alternateKey": false,
+                        "childType": "char",
+                        "type": "string",
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "New attribute",
+                        "hackoladeMeta": {},
+                        "isActivated": true,
+                        "GUID": "163f4236-90ed-4fda-bed0-9ca3d110b20e",
+                        "compositeKey": [
+                          "compositePrimaryKey",
+                          "compositeUniqueKey"
+                        ]
+                      },
+                      {
+                        "primaryKey": false,
+                        "mode": "varchar",
+                        "length": 20,
+                        "subtype": "string",
+                        "required": false,
+                        "alternateKey": false,
+                        "childType": "char",
+                        "type": "string",
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "New attribute1",
+                        "hackoladeMeta": {},
+                        "isActivated": true,
+                        "GUID": "862ec887-65ac-4805-b259-075b3d035715",
+                        "compositeKey": [
+                          "compositePrimaryKey",
+                          "compositeUniqueKey"
+                        ]
+                      }
+                    ],
+                    "childType": "object",
+                    "type": "document",
+                    "compositeKey": [
+                      "compositePrimaryKey",
+                      "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "5c329f92-b183-4c93-8f1a-4866cc8be065",
+                    "code": "",
+                    "description": "",
+                    "comments": ""
+                  }
+                ]
+              },
+              {
+                "subschema": true,
+                "isActivated": true,
+                "type": "document",
+                "GUID": "74262fe7-4de3-595f-8d43-27378934e148",
+                "childType": "object",
+                "properties": [
+                  {
+                    "name": "L4.2",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "subtype": "object",
+                    "properties": [
+                      {
+                        "primaryKey": false,
+                        "mode": "varchar",
+                        "length": 20,
+                        "subtype": "string",
+                        "required": false,
+                        "alternateKey": false,
+                        "childType": "char",
+                        "type": "string",
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "New attribute",
+                        "hackoladeMeta": {},
+                        "isActivated": true,
+                        "GUID": "6380dd6d-bb7a-45b5-ab5e-239ac335775d",
+                        "compositeKey": [
+                          "compositePrimaryKey",
+                          "compositeUniqueKey"
+                        ]
+                      },
+                      {
+                        "primaryKey": false,
+                        "mode": "varchar",
+                        "length": 20,
+                        "subtype": "string",
+                        "required": false,
+                        "alternateKey": false,
+                        "childType": "char",
+                        "type": "string",
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "New attribute1",
+                        "hackoladeMeta": {},
+                        "isActivated": true,
+                        "GUID": "fef5e4b0-cc02-45df-9cc0-da287b03f8a5",
+                        "compositeKey": [
+                          "compositePrimaryKey",
+                          "compositeUniqueKey"
+                        ]
+                      }
+                    ],
+                    "childType": "object",
+                    "type": "document",
+                    "compositeKey": [
+                      "compositePrimaryKey",
+                      "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "804a0753-b14d-431f-8fe7-016cc2f107a9",
+                    "code": "",
+                    "description": "",
+                    "comments": ""
+                  }
+                ]
+              }
+            ],
+            "isActivated": true,
+            "choice": "oneOf",
+            "GUID": "746bd09d-8d03-5b4b-b8d3-016ca500d58c"
+          }
+        ],
+        "definitions": {
+          "type": "definitions",
+          "properties": [],
+          "GUID": "edb59e77-07a5-47e3-a3aa-3f2f6c09826e"
+        },
+        "isActivated": true,
+        "additionalProperties": false,
+        "GUID": "9e7e838c-b523-4fe3-948d-de8187c8427e",
+        "definitionEntityType": "collection",
+        "link": "/Users/yevheniimoroziuk/Downloads/models/Abstract-Polyglot.hck (2).json",
+        "kind": "localPath",
+        "fieldRelativePath": "#/L3.4",
+        "fileType": "hackoladeSchema",
+        "definitionRefs": [
+          [
+            "95a6e7ae-a87b-41b8-9950-983b48efedbd"
+          ]
+        ]
+      },
+      {
+        "collectionName": "P1",
+        "type": "object",
+        "properties": [
+          {
+            "primaryKey": false,
+            "mode": "varchar",
+            "length": 20,
+            "subtype": "string",
+            "required": false,
+            "alternateKey": false,
+            "childType": "char",
+            "type": "string",
+            "compositePrimaryKey": false,
+            "compositeUniqueKey": false,
+            "name": "New attribute",
+            "hackoladeMeta": {},
+            "isActivated": true,
+            "GUID": "20ffcf8e-8d15-478c-a120-bc430efc6ee6",
+            "compositeKey": [
+              "compositePrimaryKey",
+              "compositeUniqueKey"
+            ]
+          },
+          {
+            "primaryKey": false,
+            "mode": "varchar",
+            "length": 20,
+            "subtype": "string",
+            "required": false,
+            "alternateKey": false,
+            "childType": "char",
+            "type": "string",
+            "compositePrimaryKey": false,
+            "compositeUniqueKey": false,
+            "name": "New attribute1",
+            "hackoladeMeta": {},
+            "isActivated": true,
+            "GUID": "5cbd8c93-f6e7-42a6-8c6b-175fa96cfc13",
+            "compositeKey": [
+              "compositePrimaryKey",
+              "compositeUniqueKey"
+            ]
+          },
+          {
+            "type": "choice",
+            "properties": [
+              {
+                "subschema": true,
+                "isActivated": true,
+                "type": "document",
+                "GUID": "f81843ef-685f-58ba-8e51-6ddf70020f06",
+                "childType": "object",
+                "properties": [
+                  {
+                    "name": "L3.4",
+                    "hackoladeMeta": {
+                      "polyglotOriginalReferenceId": "9e7e838c-b523-4fe3-948d-de8187c8427e"
+                    },
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "subtype": "object",
+                    "properties": [
+                      {
+                        "primaryKey": false,
+                        "mode": "varchar",
+                        "length": 20,
+                        "subtype": "string",
+                        "required": false,
+                        "alternateKey": false,
+                        "childType": "char",
+                        "type": "string",
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "New attribute",
+                        "hackoladeMeta": {
+                          "polyglotOriginalReferenceId": "9387f00c-33a9-40bb-b034-76b00bc7600f"
+                        },
+                        "isActivated": true,
+                        "GUID": "e27406c7-9dc7-4b84-a676-8450aeddb360",
+                        "compositeKey": [
+                          "compositePrimaryKey",
+                          "compositeUniqueKey"
+                        ]
+                      },
+                      {
+                        "primaryKey": false,
+                        "mode": "varchar",
+                        "length": 20,
+                        "subtype": "string",
+                        "required": false,
+                        "alternateKey": false,
+                        "childType": "char",
+                        "type": "string",
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "New attribute1",
+                        "hackoladeMeta": {
+                          "polyglotOriginalReferenceId": "cff27eee-e413-4eaa-91a3-43624e9610e2"
+                        },
+                        "isActivated": true,
+                        "GUID": "6a493c65-edc9-4c14-b92d-47b004ccd629",
+                        "compositeKey": [
+                          "compositePrimaryKey",
+                          "compositeUniqueKey"
+                        ]
+                      },
+                      {
+                        "type": "choice",
+                        "properties": [
+                          {
+                            "subschema": true,
+                            "isActivated": true,
+                            "type": "document",
+                            "GUID": "4cf86b31-5886-4bec-989e-0904aefa4ec0",
+                            "childType": "object",
+                            "properties": [
+                              {
+                                "name": "L4.1",
+                                "hackoladeMeta": {
+                                  "polyglotOriginalReferenceId": "5c329f92-b183-4c93-8f1a-4866cc8be065"
+                                },
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "unique": false,
+                                "subtype": "object",
+                                "properties": [
+                                  {
+                                    "primaryKey": false,
+                                    "mode": "varchar",
+                                    "length": 20,
+                                    "subtype": "string",
+                                    "required": false,
+                                    "alternateKey": false,
+                                    "childType": "char",
+                                    "type": "string",
+                                    "compositePrimaryKey": false,
+                                    "compositeUniqueKey": false,
+                                    "name": "New attribute",
+                                    "hackoladeMeta": {
+                                      "polyglotOriginalReferenceId": "163f4236-90ed-4fda-bed0-9ca3d110b20e"
+                                    },
+                                    "isActivated": true,
+                                    "GUID": "b2192781-59a3-40d6-b4a6-76e5a4a3cc22",
+                                    "compositeKey": [
+                                      "compositePrimaryKey",
+                                      "compositeUniqueKey"
+                                    ]
+                                  },
+                                  {
+                                    "primaryKey": false,
+                                    "mode": "varchar",
+                                    "length": 20,
+                                    "subtype": "string",
+                                    "required": false,
+                                    "alternateKey": false,
+                                    "childType": "char",
+                                    "type": "string",
+                                    "compositePrimaryKey": false,
+                                    "compositeUniqueKey": false,
+                                    "name": "New attribute1",
+                                    "hackoladeMeta": {
+                                      "polyglotOriginalReferenceId": "862ec887-65ac-4805-b259-075b3d035715"
+                                    },
+                                    "isActivated": true,
+                                    "GUID": "b0619824-fb7a-4aad-bac4-3b0c3d55da3e",
+                                    "compositeKey": [
+                                      "compositePrimaryKey",
+                                      "compositeUniqueKey"
+                                    ]
+                                  }
+                                ],
+                                "childType": "object",
+                                "type": "document",
+                                "compositeKey": [
+                                  "compositePrimaryKey",
+                                  "compositeUniqueKey"
+                                ],
+                                "compositePrimaryKey": false,
+                                "compositeUniqueKey": false,
+                                "GUID": "79333d80-cc2e-4ab2-969c-7e3941105c25",
+                                "code": "",
+                                "description": "",
+                                "comments": ""
+                              }
+                            ],
+                            "hackoladeMeta": {
+                              "polyglotOriginalReferenceId": "104e3d6d-e695-5b34-8ca4-ae583ef632f5"
+                            }
+                          },
+                          {
+                            "subschema": true,
+                            "isActivated": true,
+                            "type": "document",
+                            "GUID": "d9f3725d-29a3-4dce-bb4d-b3e75dcd2da0",
+                            "childType": "object",
+                            "properties": [
+                              {
+                                "name": "L4.2",
+                                "hackoladeMeta": {
+                                  "polyglotOriginalReferenceId": "804a0753-b14d-431f-8fe7-016cc2f107a9"
+                                },
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "unique": false,
+                                "subtype": "object",
+                                "properties": [
+                                  {
+                                    "primaryKey": false,
+                                    "mode": "varchar",
+                                    "length": 20,
+                                    "subtype": "string",
+                                    "required": false,
+                                    "alternateKey": false,
+                                    "childType": "char",
+                                    "type": "string",
+                                    "compositePrimaryKey": false,
+                                    "compositeUniqueKey": false,
+                                    "name": "New attribute",
+                                    "hackoladeMeta": {
+                                      "polyglotOriginalReferenceId": "6380dd6d-bb7a-45b5-ab5e-239ac335775d"
+                                    },
+                                    "isActivated": true,
+                                    "GUID": "efde851d-5ad9-4bd2-a495-3809e2ce5790",
+                                    "compositeKey": [
+                                      "compositePrimaryKey",
+                                      "compositeUniqueKey"
+                                    ]
+                                  },
+                                  {
+                                    "primaryKey": false,
+                                    "mode": "varchar",
+                                    "length": 20,
+                                    "subtype": "string",
+                                    "required": false,
+                                    "alternateKey": false,
+                                    "childType": "char",
+                                    "type": "string",
+                                    "compositePrimaryKey": false,
+                                    "compositeUniqueKey": false,
+                                    "name": "New attribute1",
+                                    "hackoladeMeta": {
+                                      "polyglotOriginalReferenceId": "fef5e4b0-cc02-45df-9cc0-da287b03f8a5"
+                                    },
+                                    "isActivated": true,
+                                    "GUID": "a40a4366-9b50-4aa4-97d9-8d58ec334122",
+                                    "compositeKey": [
+                                      "compositePrimaryKey",
+                                      "compositeUniqueKey"
+                                    ]
+                                  }
+                                ],
+                                "childType": "object",
+                                "type": "document",
+                                "compositeKey": [
+                                  "compositePrimaryKey",
+                                  "compositeUniqueKey"
+                                ],
+                                "compositePrimaryKey": false,
+                                "compositeUniqueKey": false,
+                                "GUID": "d2923f8b-0b60-4930-ae62-f85acc0be88c",
+                                "code": "",
+                                "description": "",
+                                "comments": ""
+                              }
+                            ],
+                            "hackoladeMeta": {
+                              "polyglotOriginalReferenceId": "74262fe7-4de3-595f-8d43-27378934e148"
+                            }
+                          }
+                        ],
+                        "isActivated": true,
+                        "choice": "oneOf",
+                        "GUID": "37ed631a-8221-4429-a6c7-b315a0fc8221",
+                        "hackoladeMeta": {
+                          "polyglotOriginalReferenceId": "746bd09d-8d03-5b4b-b8d3-016ca500d58c"
+                        }
+                      }
+                    ],
+                    "childType": "object",
+                    "type": "document",
+                    "compositeKey": [
+                      "compositePrimaryKey",
+                      "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "238973fe-5ef7-4700-aae0-05565025e9f9",
+                    "code": "",
+                    "description": "",
+                    "comments": ""
+                  }
+                ]
+              },
+              {
+                "subschema": true,
+                "isActivated": true,
+                "type": "document",
+                "GUID": "3e4c5a69-130d-5839-8220-5e95efeed0c5",
+                "childType": "object",
+                "properties": [
+                  {
+                    "name": "P2.1",
+                    "hackoladeMeta": {
+                      "polyglotOriginalReferenceId": "7c7d5b5b-b54b-48ed-8fd7-a33661059514"
+                    },
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "subtype": "object",
+                    "properties": [
+                      {
+                        "primaryKey": false,
+                        "mode": "varchar",
+                        "length": 20,
+                        "subtype": "string",
+                        "required": false,
+                        "alternateKey": false,
+                        "childType": "char",
+                        "type": "string",
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "New attribute",
+                        "hackoladeMeta": {
+                          "polyglotOriginalReferenceId": "950b5a42-01b4-49e9-bbcc-2db03773ef33"
+                        },
+                        "isActivated": true,
+                        "GUID": "c35e404e-f7f4-4f13-beaa-1e2cac278c91",
+                        "compositeKey": [
+                          "compositePrimaryKey",
+                          "compositeUniqueKey"
+                        ]
+                      },
+                      {
+                        "primaryKey": false,
+                        "mode": "varchar",
+                        "length": 20,
+                        "subtype": "string",
+                        "required": false,
+                        "alternateKey": false,
+                        "childType": "char",
+                        "type": "string",
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "New attribute1",
+                        "hackoladeMeta": {
+                          "polyglotOriginalReferenceId": "b84ca976-c89c-42a6-81eb-f4f24a2ee1d4"
+                        },
+                        "isActivated": true,
+                        "GUID": "256a8eb8-6fe4-4e55-bbb9-1de1f95e6dee",
+                        "compositeKey": [
+                          "compositePrimaryKey",
+                          "compositeUniqueKey"
+                        ]
+                      }
+                    ],
+                    "childType": "object",
+                    "type": "document",
+                    "compositeKey": [
+                      "compositePrimaryKey",
+                      "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "d0b2dabf-af9d-4235-a383-58c716ca0176",
+                    "code": "",
+                    "description": "",
+                    "comments": ""
+                  }
+                ]
+              }
+            ],
+            "isActivated": true,
+            "choice": "oneOf",
+            "GUID": "abe42949-f47e-5a9d-981c-be52f3276e6e"
+          }
+        ],
+        "definitions": {
+          "type": "definitions",
+          "properties": [],
+          "GUID": "d5c9ecce-c75d-4a68-af18-a70768c725a8"
+        },
+        "isActivated": true,
+        "additionalProperties": false,
+        "GUID": "9d4b9855-c776-44a5-930b-431d5619bd06",
+        "name": "P1",
+        "definitionEntityType": "collection",
+        "link": "/Users/yevheniimoroziuk/Downloads/models/Abstract-Polyglot.hck (2).json",
+        "kind": "localPath",
+        "fieldRelativePath": "#/P1",
+        "fileType": "hackoladeSchema",
+        "definitionRefs": []
+      }
+    ],
+    "GUID": "dfc738d3-8491-41f3-8664-7b75b24191ec"
+  },
+  "externalDefinitions": {
+    "type": "externalDefinitions",
+    "properties": [],
+    "GUID": "1a56bd15-1899-40e8-bf79-e47f5d39b73f"
+  },
+  "sources": [],
+  "decorativeSymbols": [],
+  "dbVersion": "v11.5",
+  "dbVendor": "Db2",
+  "tablespace_name": "USERSPACE1",
+  "encoding": "UTF-8",
+  "appTarget": "Db2",
+  "creationTS": "2025-10-22T11:04:50.550Z",
+  "GUID": "d9cdb027-4ff9-42b6-bdf6-4b1ba4b3ad37",
+  "isLineageEnabled": false,
+  "polyglotModelPaths": [
+    {
+      "GUID": "2d4b113f-bdc7-4ebf-8f09-9baeb6b803a4",
+      "polyglotModelName": "polyglot_external",
+      "polyglotModelPath": "../polyglot_external.json",
+      "normalization": false
+    },
+    {
+      "GUID": "4fe04314-7425-4caf-9bb1-00e80379e08e",
+      "polyglotModelName": "Abstract-Polyglot.hck (2)",
+      "polyglotModelPath": "/Users/yevheniimoroziuk/Downloads/models/Abstract-Polyglot.hck (2).json",
+      "normalization": false
+    }
+  ],
+  "lastModifTS": "2025-10-22T15:14:02.751Z",
+  "persistenceSchemaVersion": "8",
+  "isCreatedByPlugin": true,
+  "pluginInformation": {
+    "pluginName": "Db2",
+    "pluginVersion": "0.2.24",
+    "pluginEngineVersion": "1.0.0"
+  },
+  "applicationInformation": {
+    "version": "8.5.3"
+  },
+  "hackoladeMeta": {},
+  "settings": {
+    "centralPane": {
+      "dbLevel": {
+        "erd": [
+          {
+            "GUID": "95a6e7ae-a87b-41b8-9950-983b48efedbd",
+            "x": 7201.128913797254,
+            "y": 6672.705548725763,
+            "width": 375.6666666666666,
+            "height": 212.666666666667,
+            "color": {
+              "hex": "#2196F3"
+            }
+          },
+          {
+            "GUID": "a0df936e-8e27-462f-ac62-b13f38670b00",
+            "x": 8027.2248336942885,
+            "y": 6513.696109924078,
+            "width": 372,
+            "height": 127,
+            "color": {
+              "hex": "#2196F3"
+            }
+          },
+          {
+            "GUID": "52e95385-1828-4d0e-b77c-1c1902add178",
+            "x": 7652.2248336942885,
+            "y": 6504.696109924078,
+            "width": 258,
+            "height": 82,
+            "color": {
+              "hex": "#2196F3"
+            }
+          },
+          {
+            "GUID": "68aecfce-6291-4cb2-9f8f-dc2bccc475f5",
+            "x": 7266.358524469828,
+            "y": 6509.539926089043,
+            "width": 217.62676056338054,
+            "height": 99.35211267605627,
+            "color": {
+              "hex": "#2196F3"
+            }
+          }
+        ],
+        "erdDefinitions": {
+          "erd": [],
+          "rootPath": [],
+          "entities": [],
+          "decorativeSymbols": []
+        },
+        "buckets": [
+          {
+            "x": 7202.358524469828,
+            "y": 6445.539926089043,
+            "GUID": "861cfcec-34e8-43cf-a02d-e0c55c8f0380"
+          },
+          {
+            "x": 7588.2248336942885,
+            "y": 6440.696109924078,
+            "GUID": "6ba2b499-9bbb-495a-8df6-1d8e02b9cf66"
+          }
+        ],
+        "collapsedNodes": [],
+        "activeRelationship": "",
+        "activeRelationshipFields": {
+          "childField": [],
+          "parentField": []
+        },
+        "selectedCollections": [],
+        "displayColorPicker": false,
+        "graphView": {
+          "erd": [],
+          "buckets": [],
+          "decorativeSymbols": [],
+          "forceLayout": true,
+          "defaultLinkLength": 300
+        },
+        "diagramViews": [],
+        "decorativeSymbols": [],
+        "nestedCollectionsLayout": "horizontal",
+        "options": [
+          {
+            "GUID": "95a6e7ae-a87b-41b8-9950-983b48efedbd",
+            "autoWidth": false,
+            "autoHeight": false
+          }
+        ],
+        "relationshipUpdateDisabled": false
+      },
+      "collectionLevel": {},
+      "changed": false
+    },
+    "dtDiagram": {
+      "collapsedNodes": [],
+      "shouldDistributeCollections": false
+    }
+  }
+}

@@ -29,25 +29,6 @@
       "hackoladeMeta": {
         "validationErrors": {}
       }
-    },
-    {
-      "collectionName": "new_table",
-      "refType": "polyglot",
-      "refNamePath": "#external/definitions/New table",
-      "properties": [],
-      "GUID": "4fb07ed8-25a8-466c-ab6c-070a300607cc",
-      "ref": "589264e7-a3c4-4570-8f3a-b65cd6afd58e",
-      "refIdPath": [
-        "7a90b47c-4e86-45ca-81db-3e703bceea86",
-        "b2c2d0fc-26dc-4ee0-a689-de279bd7a498",
-        "589264e7-a3c4-4570-8f3a-b65cd6afd58e"
-      ],
-      "type": "reference",
-      "definitions": {
-        "type": "definitions",
-        "properties": [],
-        "GUID": "ab4074ae-85f9-4e49-8e12-cbcfc84d2735"
-      }
     }
   ],
   "buckets": [
@@ -87,8 +68,7 @@
   "diagramViews": [],
   "idToNameHashTable": {
     "1eca27d9-c54b-4821-937c-e02f17d572d1": "Person",
-    "00b73cbb-22ea-427c-a05d-3c60d1477475": "New container",
-    "4fb07ed8-25a8-466c-ab6c-070a300607cc": "new_table"
+    "00b73cbb-22ea-427c-a05d-3c60d1477475": "New container"
   },
   "definitions": {
     "type": "definitions",
@@ -228,6 +208,33 @@
               "compositePrimaryKey",
               "compositeUniqueKey"
             ]
+          },
+          {
+            "code": "",
+            "primaryKey": false,
+            "mode": "varchar2",
+            "length": 20,
+            "subtype": "string",
+            "required": false,
+            "alternateKey": false,
+            "childType": "char",
+            "type": "string",
+            "partitionKey": false,
+            "compositePartitionKey": false,
+            "compositePrimaryKey": false,
+            "compositeUniqueKey": false,
+            "name": "New column",
+            "isActivated": true,
+            "GUID": "409daf73-4169-410d-a4ee-bc44eaaf8956",
+            "compositeKey": [
+              "partitionKey",
+              "compositePartitionKey",
+              "compositePrimaryKey",
+              "compositeUniqueKey"
+            ],
+            "error": {
+              "name": true
+            }
           }
         ],
         "alternateKey": false,
@@ -244,6 +251,7 @@
         "compositePrimaryKey": false,
         "compositeUniqueKey": false,
         "GUID": "589264e7-a3c4-4570-8f3a-b65cd6afd58e",
+        "code": "",
         "description": "",
         "comments": "",
         "definitionEntityType": "field",
@@ -251,11 +259,7 @@
         "link": "folder/folder1/folder2/folder3/folder4/snowflake.json",
         "kind": "relativePath",
         "fileType": "hackoladeSchema",
-        "definitionRefs": [
-          [
-            "4fb07ed8-25a8-466c-ab6c-070a300607cc"
-          ]
-        ]
+        "definitionRefs": []
       }
     ],
     "GUID": "b2c2d0fc-26dc-4ee0-a689-de279bd7a498"
@@ -281,16 +285,16 @@
       "normalization": true
     }
   ],
-  "lastModifTS": "2025-10-16T12:15:37.632Z",
+  "lastModifTS": "2025-10-23T16:00:35.022Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
     "pluginName": "Oracle",
-    "pluginVersion": "0.2.41",
+    "pluginVersion": "0.2.43",
     "pluginEngineVersion": "1.0.0"
   },
   "applicationInformation": {
-    "version": "8.5.2"
+    "version": "8.5.3"
   },
   "hackoladeMeta": {},
   "settings": {
@@ -306,14 +310,6 @@
             "color": {
               "hex": "#2196F3"
             }
-          },
-          {
-            "GUID": "4fb07ed8-25a8-466c-ab6c-070a300607cc",
-            "x": 1067.1592356687904,
-            "y": 1404.6369426751603,
-            "width": 307,
-            "height": 84,
-            "color": {}
           }
         ],
         "erdDefinitions": {
@@ -352,11 +348,6 @@
             "autoWidth": false,
             "autoHeight": false,
             "GUID": "1eca27d9-c54b-4821-937c-e02f17d572d1"
-          },
-          {
-            "autoWidth": false,
-            "autoHeight": false,
-            "GUID": "4fb07ed8-25a8-466c-ab6c-070a300607cc"
           }
         ],
         "relationshipUpdateDisabled": false

@@ -1,0 +1,230 @@
+{
+  "modelName": "New model",
+  "collections": [
+    {
+      "collectionName": "New table",
+      "type": "object",
+      "properties": [
+        {
+          "isActivated": true,
+          "compositeKey": [
+            "clusteringKey",
+            "partitioningKey",
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "clusteringKey": false,
+          "partitioningKey": false,
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "name": "New column",
+          "primaryKey": false,
+          "required": false,
+          "alternateKey": false,
+          "GUID": "6d332640-b1a6-4973-81d1-aa56d3c6b2b3",
+          "type": "reference",
+          "$ref": "#/definitions/New column",
+          "refType": "internal",
+          "ref": "9b9a926c-af24-4680-a7c9-0e715f9cce33",
+          "refIdPath": [
+            "dcaafee7-75d1-447d-8ebc-0bf45675c1e3",
+            "92da5578-cb80-4cd2-9b4d-072ba1ab5981",
+            "9b9a926c-af24-4680-a7c9-0e715f9cce33"
+          ],
+          "hackoladeMeta": {}
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [
+          {
+            "name": "New column",
+            "hackoladeMeta": {},
+            "isActivated": true,
+            "autoincrement": {
+              "step_num": 1
+            },
+            "tPrecision": 9,
+            "primaryKey": false,
+            "required": false,
+            "alternateKey": false,
+            "childType": "varchar",
+            "type": "string",
+            "compositeKey": [
+              "clusteringKey",
+              "partitioningKey",
+              "compositePrimaryKey",
+              "compositeUniqueKey"
+            ],
+            "clusteringKey": false,
+            "partitioningKey": false,
+            "compositePrimaryKey": false,
+            "compositeUniqueKey": false,
+            "GUID": "9b9a926c-af24-4680-a7c9-0e715f9cce33",
+            "error": {
+              "name": false,
+              "code": false
+            },
+            "definitionRefs": [
+              [
+                "dcaafee7-75d1-447d-8ebc-0bf45675c1e3",
+                "6d332640-b1a6-4973-81d1-aa56d3c6b2b3"
+              ]
+            ]
+          }
+        ],
+        "GUID": "92da5578-cb80-4cd2-9b4d-072ba1ab5981"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "external": false,
+      "catalog": "",
+      "storageSerializationPolicy": "optimized",
+      "GUID": "dcaafee7-75d1-447d-8ebc-0bf45675c1e3"
+    },
+    {
+      "collectionName": "New table1",
+      "type": "object",
+      "properties": [],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "0dea0b27-6efa-403e-bae9-b3a82184e59c"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "external": false,
+      "catalog": "",
+      "storageSerializationPolicy": "optimized",
+      "GUID": "ec85fb81-48ae-40e8-8848-275ff28afe73",
+      "bucketId": "7afbed20-8df1-4df3-ba44-9ddd88ed2a6f"
+    }
+  ],
+  "buckets": [
+    {
+      "name": "New schema",
+      "type": "bucket",
+      "collectionIds": [
+        "ec85fb81-48ae-40e8-8848-275ff28afe73"
+      ],
+      "backgroundColor": {
+        "r": 129,
+        "g": 212,
+        "b": 250,
+        "a": 1
+      },
+      "show": true,
+      "isActivated": true,
+      "indexes": [],
+      "GUID": "7afbed20-8df1-4df3-ba44-9ddd88ed2a6f",
+      "description": "vjj"
+    }
+  ],
+  "views": [],
+  "relationships": [],
+  "users": [],
+  "diagramViews": [],
+  "idToNameHashTable": {
+    "dcaafee7-75d1-447d-8ebc-0bf45675c1e3": "New table",
+    "6d332640-b1a6-4973-81d1-aa56d3c6b2b3": "New column",
+    "9b9a926c-af24-4680-a7c9-0e715f9cce33": "New column",
+    "ec85fb81-48ae-40e8-8848-275ff28afe73": "New table1",
+    "7afbed20-8df1-4df3-ba44-9ddd88ed2a6f": "New schema"
+  },
+  "definitions": {
+    "type": "definitions",
+    "properties": [],
+    "GUID": "70feeb21-de02-475b-84bf-651f08ea4cb6"
+  },
+  "polyglotDefinitions": {
+    "type": "polyglotDefinitions",
+    "properties": [],
+    "GUID": "eecaa6e2-c641-4a9a-8087-642d56c8271c"
+  },
+  "externalDefinitions": {
+    "type": "externalDefinitions",
+    "properties": [],
+    "GUID": "1f97a2db-e524-4a70-8990-bc2dfb019e95"
+  },
+  "sources": [],
+  "decorativeSymbols": [],
+  "dbVendor": "Snowflake",
+  "appTarget": "Snowflake",
+  "creationTS": "2025-10-27T07:11:58.152Z",
+  "GUID": "afcb1982-872a-42bb-81d3-e0216e41041c",
+  "isLineageEnabled": false,
+  "lastModifTS": "2025-10-27T07:14:05.357Z",
+  "persistenceSchemaVersion": "8",
+  "isCreatedByPlugin": true,
+  "pluginInformation": {
+    "pluginName": "Snowflake",
+    "pluginVersion": "0.2.35",
+    "pluginEngineVersion": "1.0.0"
+  },
+  "applicationInformation": {
+    "version": "8.5.3"
+  },
+  "settings": {
+    "centralPane": {
+      "dbLevel": {
+        "erd": [
+          {
+            "GUID": "dcaafee7-75d1-447d-8ebc-0bf45675c1e3",
+            "x": 1040,
+            "y": 1040,
+            "width": 204,
+            "height": 50,
+            "color": {}
+          },
+          {
+            "GUID": "ec85fb81-48ae-40e8-8848-275ff28afe73",
+            "x": 1145,
+            "y": 1284,
+            "width": 240,
+            "height": 100,
+            "color": {}
+          }
+        ],
+        "erdDefinitions": {
+          "erd": [],
+          "rootPath": [],
+          "entities": [],
+          "decorativeSymbols": []
+        },
+        "buckets": [
+          {
+            "x": 1081,
+            "y": 1220,
+            "GUID": "7afbed20-8df1-4df3-ba44-9ddd88ed2a6f"
+          }
+        ],
+        "collapsedNodes": [],
+        "activeRelationship": "",
+        "activeRelationshipFields": {
+          "childField": [],
+          "parentField": []
+        },
+        "selectedCollections": [],
+        "displayColorPicker": false,
+        "graphView": {
+          "erd": [],
+          "buckets": [],
+          "decorativeSymbols": [],
+          "forceLayout": true,
+          "defaultLinkLength": 300
+        },
+        "diagramViews": [],
+        "decorativeSymbols": [],
+        "nestedCollectionsLayout": "horizontal",
+        "options": [],
+        "relationshipUpdateDisabled": false
+      },
+      "collectionLevel": {},
+      "changed": false
+    },
+    "dtDiagram": {
+      "collapsedNodes": [],
+      "shouldDistributeCollections": false
+    }
+  }
+}

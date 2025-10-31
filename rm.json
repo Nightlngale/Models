@@ -419,7 +419,7 @@
         "comments": "",
         "definitionEntityType": "field",
         "fieldRelativePath": "#/Relative",
-        "link": "/Users/yevheniimoroziuk/Downloads/models/local_external.json",
+        "link": "../../../local_external.json",
         "kind": "localPath",
         "fileType": "hackoladeSchema",
         "definitionRefs": [

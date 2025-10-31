@@ -443,7 +443,7 @@
   "creationTS": "2025-10-27T07:11:58.152Z",
   "GUID": "afcb1982-872a-42bb-81d3-e0216e41041c",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-10-27T07:19:18.016Z",
+  "lastModifTS": "2025-10-31T09:23:42.268Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -452,7 +452,7 @@
     "pluginEngineVersion": "1.0.0"
   },
   "applicationInformation": {
-    "version": "8.5.3"
+    "version": "8.5.4"
   },
   "hackoladeMeta": {},
   "settings": {

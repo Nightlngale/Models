@@ -121,10 +121,63 @@
       },
       "error": {
         "refPath": false
+      },
+      "hackoladeMeta": {
+        "validationErrors": {}
+      }
+    },
+    {
+      "isActivated": true,
+      "collectionName": "Person",
+      "type": "reference",
+      "properties": [],
+      "definitions": {
+        "properties": [],
+        "GUID": "d46d2444-2000-43a3-98ba-ec5ae1e9bcbf"
+      },
+      "additionalProperties": false,
+      "GUID": "62bf6a44-e385-4bf5-aa7c-56de0054610b",
+      "$ref": "#external/definitions/Person",
+      "refType": "polyglot",
+      "ref": "e5ba3de7-c675-4688-819e-87b4b8597f98",
+      "refIdPath": [
+        "fc06a5ee-b8ac-42f7-a08c-3d4699917d75",
+        "e1f574d7-f6ba-447e-8805-8b955c64fddc",
+        "e5ba3de7-c675-4688-819e-87b4b8597f98"
+      ],
+      "bucketId": "272781d9-3772-4798-8a09-ed9a4d49d518",
+      "hackoladeMeta": {
+        "validationErrors": {}
       }
     }
   ],
-  "buckets": [],
+  "buckets": [
+    {
+      "isActivated": true,
+      "name": "New container",
+      "type": "reference",
+      "collectionIds": [
+        "62bf6a44-e385-4bf5-aa7c-56de0054610b"
+      ],
+      "backgroundColor": {
+        "r": 129,
+        "g": 212,
+        "b": 250,
+        "a": 1
+      },
+      "show": true,
+      "indexes": [],
+      "GUID": "272781d9-3772-4798-8a09-ed9a4d49d518",
+      "$ref": "#external/definitions/New container",
+      "refType": "polyglot",
+      "ref": "6b0ce2f7-5420-4208-8c43-83ebe136d02a",
+      "refIdPath": [
+        "fc06a5ee-b8ac-42f7-a08c-3d4699917d75",
+        "e1f574d7-f6ba-447e-8805-8b955c64fddc",
+        "6b0ce2f7-5420-4208-8c43-83ebe136d02a"
+      ]
+    }
+  ],
   "views": [],
   "relationships": [],
   "users": [],
@@ -136,7 +189,9 @@
     "9993339c-da23-4fd0-b23f-9460aa771919": "New entity6",
     "b601161f-b4ac-45ab-b9d1-1e37a272686f": "Absolute path",
     "0543f54f-38a6-4acc-8836-f1921c8ff02a": "New entity",
-    "177cf9c7-eaf2-46ef-9e11-83df9b83d773": "Customer loyalty points"
+    "177cf9c7-eaf2-46ef-9e11-83df9b83d773": "Customer loyalty points",
+    "62bf6a44-e385-4bf5-aa7c-56de0054610b": "Person",
+    "272781d9-3772-4798-8a09-ed9a4d49d518": "New container"
   },
   "definitions": {
     "type": "definitions",
@@ -403,6 +458,111 @@
         "definitionRefs": [
           [
             "b601161f-b4ac-45ab-b9d1-1e37a272686f"
+          ]
+        ]
+      },
+      {
+        "collectionName": "Person",
+        "type": "object",
+        "properties": [
+          {
+            "primaryKey": false,
+            "required": false,
+            "alternateKey": false,
+            "childType": "varchar",
+            "type": "string",
+            "compositePrimaryKey": false,
+            "compositeUniqueKey": false,
+            "isActivated": true,
+            "GUID": "fb5c9821-a897-4379-97d1-32a443507f17",
+            "name": "name",
+            "mode": "",
+            "compositeKey": [
+              "compositePrimaryKey",
+              "compositeUniqueKey"
+            ]
+          },
+          {
+            "exclusiveMinimum": false,
+            "exclusiveMaximum": false,
+            "primaryKey": false,
+            "required": false,
+            "alternateKey": false,
+            "childType": "number",
+            "type": "numeric",
+            "compositePrimaryKey": false,
+            "compositeUniqueKey": false,
+            "name": "age",
+            "isActivated": true,
+            "GUID": "4d8d350f-1504-4ad1-8293-c7bbeb660b24",
+            "mode": "",
+            "compositeKey": [
+              "compositePrimaryKey",
+              "compositeUniqueKey"
+            ]
+          },
+          {
+            "primaryKey": false,
+            "required": false,
+            "alternateKey": false,
+            "childType": "varchar",
+            "type": "string",
+            "compositePrimaryKey": false,
+            "compositeUniqueKey": false,
+            "name": "sex",
+            "isActivated": true,
+            "GUID": "1d7e23da-3fb5-4558-90e1-a8607917f5bb",
+            "mode": "",
+            "compositeKey": [
+              "compositePrimaryKey",
+              "compositeUniqueKey"
+            ]
+          }
+        ],
+        "definitions": {
+          "type": "definitions",
+          "properties": [],
+          "GUID": "7e0ea2be-f696-4818-933c-8e639582b00f"
+        },
+        "isActivated": true,
+        "additionalProperties": false,
+        "GUID": "e5ba3de7-c675-4688-819e-87b4b8597f98",
+        "bucketId": "6b0ce2f7-5420-4208-8c43-83ebe136d02a",
+        "definitionEntityType": "collection",
+        "link": "polyglot_external.json",
+        "kind": "relativePath",
+        "fieldRelativePath": "#/New container/Person",
+        "fileType": "hackoladeSchema",
+        "definitionRefs": [
+          [
+            "62bf6a44-e385-4bf5-aa7c-56de0054610b"
+          ]
+        ]
+      },
+      {
+        "name": "New container",
+        "type": "bucket",
+        "collectionIds": [
+          "e5ba3de7-c675-4688-819e-87b4b8597f98"
+        ],
+        "backgroundColor": {
+          "r": 129,
+          "g": 212,
+          "b": 250,
+          "a": 1
+        },
+        "show": true,
+        "isActivated": true,
+        "indexes": [],
+        "GUID": "6b0ce2f7-5420-4208-8c43-83ebe136d02a",
+        "definitionEntityType": "bucket",
+        "link": "polyglot_external.json",
+        "kind": "relativePath",
+        "fieldRelativePath": "#/New container",
+        "fileType": "hackoladeSchema",
+        "definitionRefs": [
+          [
+            "272781d9-3772-4798-8a09-ed9a4d49d518"
           ]
         ]
       }
@@ -1133,7 +1293,7 @@
   "creationTS": "2025-11-19T05:39:37.456Z",
   "GUID": "fc06a5ee-b8ac-42f7-a08c-3d4699917d75",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-11-25T11:33:58.510Z",
+  "lastModifTS": "2025-11-25T11:34:41.725Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -1145,10 +1305,29 @@
     "version": "8.6.1"
   },
   "hackoladeMeta": {},
+  "polyglotModelPaths": [
+    {
+      "GUID": "616fce9d-417b-49ea-a20b-fd51da68b296",
+      "polyglotModelName": "polyglot_external",
+      "polyglotModelPath": "polyglot_external.json",
+      "normalization": false,
+      "applyTargetNamingConventions": false
+    }
+  ],
   "settings": {
     "centralPane": {
       "dbLevel": {
         "erd": [
+          {
+            "GUID": "62bf6a44-e385-4bf5-aa7c-56de0054610b",
+            "x": 1104,
+            "y": 1104,
+            "width": 198,
+            "height": 93,
+            "color": {
+              "hex": "#2196F3"
+            }
+          },
           {
             "GUID": "f8b66de1-9659-4469-957e-be7220eff87a",
             "x": 903,
@@ -1206,7 +1385,13 @@
           "entities": [],
           "decorativeSymbols": []
         },
-        "buckets": [],
+        "buckets": [
+          {
+            "x": 1040,
+            "y": 1040,
+            "GUID": "272781d9-3772-4798-8a09-ed9a4d49d518"
+          }
+        ],
         "collapsedNodes": [],
         "activeRelationship": "",
         "activeRelationshipFields": {
@@ -1246,9 +1431,21 @@
               "size": 100,
               "x": 1159,
               "y": 1863
+            },
+            {
+              "GUID": "62bf6a44-e385-4bf5-aa7c-56de0054610b",
+              "size": 100,
+              "x": 1104,
+              "y": 1104
             }
           ],
-          "buckets": [],
+          "buckets": [
+            {
+              "x": 64,
+              "y": 64,
+              "GUID": "272781d9-3772-4798-8a09-ed9a4d49d518"
+            }
+          ],
           "decorativeSymbols": [],
           "forceLayout": true,
           "defaultLinkLength": 300
@@ -1258,19 +1455,7 @@
         "nestedCollectionsLayout": "horizontal",
         "options": [
           {
-            "autoWidth": false,
-            "autoHeight": false,
-            "GUID": "f8b66de1-9659-4469-957e-be7220eff87a"
-          },
-          {
-            "autoWidth": false,
-            "autoHeight": false,
-            "GUID": "76b8c0fa-23fd-44ae-bef7-8c0340851271"
-          },
-          {
-            "autoWidth": false,
-            "autoHeight": false,
-            "GUID": "b601161f-b4ac-45ab-b9d1-1e37a272686f"
+            "GUID": "62bf6a44-e385-4bf5-aa7c-56de0054610b"
           }
         ],
         "relationshipUpdateDisabled": false

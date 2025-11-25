@@ -556,7 +556,7 @@
         "indexes": [],
         "GUID": "6b0ce2f7-5420-4208-8c43-83ebe136d02a",
         "definitionEntityType": "bucket",
-        "link": "polyglot_external.json",
+       "link": "../polyglot_external.json",
         "kind": "relativePath",
         "fieldRelativePath": "#/New container",
         "fileType": "hackoladeSchema",
@@ -1309,7 +1309,7 @@
     {
       "GUID": "616fce9d-417b-49ea-a20b-fd51da68b296",
       "polyglotModelName": "polyglot_external",
-      "polyglotModelPath": "polyglot_external.json",
+      "polyglotModelPath": "../polyglot_external.json",
       "normalization": false,
       "applyTargetNamingConventions": false
     }

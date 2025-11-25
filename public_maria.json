@@ -1,0 +1,111 @@
+{
+  "modelName": "new_model",
+  "collections": [
+    {
+      "collectionName": "new_table",
+      "type": "object",
+      "properties": [],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "58d67ece-8ea4-4365-b4bf-9a83f65012a2"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "memory_optimized": false,
+      "collectionUsers": [],
+      "GUID": "0be26ce3-51c3-46ba-a906-28296cb2a854"
+    }
+  ],
+  "buckets": [],
+  "views": [],
+  "relationships": [],
+  "users": [],
+  "diagramViews": [],
+  "idToNameHashTable": {
+    "0be26ce3-51c3-46ba-a906-28296cb2a854": "new_table"
+  },
+  "definitions": {
+    "type": "definitions",
+    "properties": [],
+    "GUID": "70426ad8-f4d2-45bd-b5bc-65e6916c3866"
+  },
+  "polyglotDefinitions": {
+    "type": "polyglotDefinitions",
+    "properties": [],
+    "GUID": "aa601059-4fbe-4858-9271-82fd68c0dc1c"
+  },
+  "externalDefinitions": {
+    "type": "externalDefinitions",
+    "properties": [],
+    "GUID": "a8877764-1c81-4e1f-a468-d1a9897d6807"
+  },
+  "sources": [],
+  "decorativeSymbols": [],
+  "dbVersion": "v11.x",
+  "dbVendor": "MariaDB",
+  "appTarget": "MariaDB",
+  "creationTS": "2025-11-25T12:34:02.848Z",
+  "GUID": "0283921f-c07a-4795-a218-a6c979319759",
+  "isLineageEnabled": false,
+  "lastModifTS": "2025-11-25T12:34:29.436Z",
+  "persistenceSchemaVersion": "8",
+  "isCreatedByPlugin": true,
+  "pluginInformation": {
+    "pluginName": "MariaDB",
+    "pluginVersion": "0.2.17",
+    "pluginEngineVersion": "1.0.0"
+  },
+  "applicationInformation": {
+    "version": "8.6.1"
+  },
+  "settings": {
+    "centralPane": {
+      "dbLevel": {
+        "erd": [
+          {
+            "GUID": "0be26ce3-51c3-46ba-a906-28296cb2a854",
+            "x": 1040,
+            "y": 1040,
+            "width": 300,
+            "height": 100,
+            "color": {}
+          }
+        ],
+        "erdDefinitions": {
+          "erd": [],
+          "rootPath": [],
+          "entities": [],
+          "decorativeSymbols": []
+        },
+        "buckets": [],
+        "collapsedNodes": [],
+        "activeRelationship": "",
+        "activeRelationshipFields": {
+          "childField": [],
+          "parentField": []
+        },
+        "selectedCollections": [],
+        "displayColorPicker": false,
+        "graphView": {
+          "erd": [],
+          "buckets": [],
+          "decorativeSymbols": [],
+          "forceLayout": true,
+          "defaultLinkLength": 300
+        },
+        "diagramViews": [],
+        "decorativeSymbols": [],
+        "nestedCollectionsLayout": "horizontal",
+        "options": [],
+        "relationshipUpdateDisabled": false
+      },
+      "collectionLevel": {},
+      "changed": false
+    },
+    "dtDiagram": {
+      "collapsedNodes": [],
+      "shouldDistributeCollections": false
+    }
+  }
+}

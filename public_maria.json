@@ -3,18 +3,26 @@
   "collections": [
     {
       "collectionName": "new_table",
-      "type": "object",
+      "refType": "polyglot",
+      "refNamePath": "#external/definitions/Simple table",
       "properties": [],
+      "GUID": "0be26ce3-51c3-46ba-a906-28296cb2a854",
+      "ref": "d2fdfd7d-af6f-4e07-a456-f0780b886b3e",
+      "refIdPath": [
+        "0283921f-c07a-4795-a218-a6c979319759",
+        "aa601059-4fbe-4858-9271-82fd68c0dc1c",
+        "d2fdfd7d-af6f-4e07-a456-f0780b886b3e"
+      ],
+      "type": "reference",
       "definitions": {
         "type": "definitions",
         "properties": [],
-        "GUID": "58d67ece-8ea4-4365-b4bf-9a83f65012a2"
+        "GUID": "15c70aaf-faad-4882-a389-f79f2fd742da"
       },
-      "isActivated": true,
-      "additionalProperties": false,
-      "memory_optimized": false,
-      "collectionUsers": [],
-      "GUID": "0be26ce3-51c3-46ba-a906-28296cb2a854"
+      "error": {
+        "refPath": false,
+        "name": true
+      }
     }
   ],
   "buckets": [],
@@ -32,7 +40,86 @@
   },
   "polyglotDefinitions": {
     "type": "polyglotDefinitions",
-    "properties": [],
+    "properties": [
+      {
+        "name": "Simple table",
+        "hackoladeMeta": {},
+        "isActivated": true,
+        "signed": true,
+        "primaryKey": false,
+        "unique": false,
+        "hasMaxLength": true,
+        "subtype": "object",
+        "properties": [
+          {
+            "primaryKey": false,
+            "mode": "varchar",
+            "length": 10,
+            "subtype": "string",
+            "required": false,
+            "alternateKey": false,
+            "childType": "char",
+            "type": "string",
+            "compositePrimaryKey": false,
+            "compositeUniqueKey": false,
+            "name": "col1",
+            "isActivated": true,
+            "GUID": "c32a094e-4cbd-44e0-9810-57fc80f12911",
+            "compositeKey": [
+              "compositePrimaryKey",
+              "compositeUniqueKey"
+            ],
+            "hackoladeMeta": {}
+          },
+          {
+            "exclusiveMinimum": false,
+            "exclusiveMaximum": false,
+            "primaryKey": false,
+            "mode": "double",
+            "required": false,
+            "alternateKey": false,
+            "childType": "numeric",
+            "type": "numeric",
+            "compositePrimaryKey": false,
+            "compositeUniqueKey": false,
+            "name": "col2",
+            "isActivated": true,
+            "autoincrement": {
+              "step_num": 1,
+              "GUID": "aca3b01a-01af-4cc0-9ee0-e177e27a745e"
+            },
+            "GUID": "e0d9ca6b-fb06-4600-80b4-7c65dc78e222",
+            "compositeKey": [
+              "compositePrimaryKey",
+              "compositeUniqueKey"
+            ],
+            "hackoladeMeta": {}
+          }
+        ],
+        "childType": "object",
+        "type": "document",
+        "compositeKey": [
+          "compositePrimaryKey",
+          "compositeUniqueKey"
+        ],
+        "compositePrimaryKey": false,
+        "compositeUniqueKey": false,
+        "GUID": "d2fdfd7d-af6f-4e07-a456-f0780b886b3e",
+        "code": "",
+        "description": "",
+        "comments": "",
+        "definitionEntityType": "field",
+        "fieldRelativePath": "#/Simple table",
+        "link": "?g=github&o=Nightlngale&r=Private_models&f=Snowflake.hck.json&b=main",
+        "kind": "link",
+        "fileType": "hackoladeSchema",
+        "definitionRefs": [
+          [
+            "0be26ce3-51c3-46ba-a906-28296cb2a854"
+          ]
+        ]
+      }
+    ],
     "GUID": "aa601059-4fbe-4858-9271-82fd68c0dc1c"
   },
   "externalDefinitions": {
@@ -48,7 +135,7 @@
   "creationTS": "2025-11-25T12:34:02.848Z",
   "GUID": "0283921f-c07a-4795-a218-a6c979319759",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-11-25T12:34:29.436Z",
+  "lastModifTS": "2025-11-25T12:35:06.055Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -59,6 +146,7 @@
   "applicationInformation": {
     "version": "8.6.1"
   },
+  "hackoladeMeta": {},
   "settings": {
     "centralPane": {
       "dbLevel": {
@@ -67,8 +155,8 @@
             "GUID": "0be26ce3-51c3-46ba-a906-28296cb2a854",
             "x": 1040,
             "y": 1040,
-            "width": 300,
-            "height": 100,
+            "width": 292.63917525773195,
+            "height": 105.8309278350515,
             "color": {}
           }
         ],
@@ -97,7 +185,13 @@
         "diagramViews": [],
         "decorativeSymbols": [],
         "nestedCollectionsLayout": "horizontal",
-        "options": [],
+        "options": [
+          {
+            "autoWidth": false,
+            "autoHeight": false,
+            "GUID": "0be26ce3-51c3-46ba-a906-28296cb2a854"
+          }
+        ],
         "relationshipUpdateDisabled": false
       },
       "collectionLevel": {},

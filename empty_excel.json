@@ -1,5 +1,5 @@
 {
-  "modelName": "New Model",
+  "modelName": "new_model",
   "collections": [],
   "buckets": [],
   "views": [],
@@ -10,30 +10,32 @@
   "definitions": {
     "type": "definitions",
     "properties": [],
-    "GUID": "929a7743-6b95-44f0-ab2f-19d508c3d938"
+    "GUID": "3c3b80bd-cba0-4225-804f-6944d28712fa"
   },
   "polyglotDefinitions": {
     "type": "polyglotDefinitions",
     "properties": [],
-    "GUID": "9b0b3fd1-b503-478f-a373-d87314c53c1c"
+    "GUID": "149d5e7d-9601-47c3-a50a-4f765d2296fa"
   },
   "externalDefinitions": {
     "type": "externalDefinitions",
     "properties": [],
-    "GUID": "78366c46-4dac-4fed-bb7f-ac375944f209"
+    "GUID": "f6a4623d-aeee-41aa-b9f5-9b1f6bb58718"
   },
   "sources": [],
   "decorativeSymbols": [],
-  "dbVendor": "JSON",
-  "dbVersion": "2019-09",
-  "appTarget": "JSON",
-  "creationTS": "2025-12-01T13:17:13.249Z",
-  "GUID": "1490415e-058f-48e9-b1e9-6000f1d4653a",
+  "dbVersion": "26ai",
+  "dbVendor": "Oracle",
+  "appTarget": "Oracle",
+  "creationTS": "2025-12-01T13:18:32.971Z",
+  "GUID": "c639d380-e6a7-460f-9e24-2746b3a4f645",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-12-01T13:17:47.942Z",
+  "lastModifTS": "2025-12-01T13:18:47.706Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
+    "pluginName": "Oracle",
+    "pluginVersion": "0.2.44",
     "pluginEngineVersion": "1.0.0"
   },
   "applicationInformation": {
